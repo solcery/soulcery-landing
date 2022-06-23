@@ -207,8 +207,86 @@ function App() {
 
         <Splide
           aria-label="My Favorite Images"
-          options={{ focus: "center", autoWidth: true, gap: 10, arrows: false }}
+          options={{
+            perPage: 6,
+            gap: 20,
+            arrows: false,
+            breakpoints: {
+              900: {
+                perPage: 2,
+              },
+              1940: {
+                perPage: 5,
+              },
+              1610: {
+                perPage: 4,
+              },
+              1150: {
+                perPage: 3,
+              },
+              600: {
+                perPage: 1,
+              },
+            },
+          }}
         >
+          <SplideSlide>
+            <CollectionCard img={first_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={second_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={third_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={first_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={second_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={third_eth} />
+          </SplideSlide>
+
+          <SplideSlide>
+            <CollectionCard img={first_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={second_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={third_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={first_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={second_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={third_eth} />
+          </SplideSlide>
+
+          <SplideSlide>
+            <CollectionCard img={first_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={second_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={third_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={first_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={second_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={third_eth} />
+          </SplideSlide>
+
           <SplideSlide>
             <CollectionCard img={first_eth} />
           </SplideSlide>
@@ -243,7 +321,338 @@ function App() {
         <div className="slider_box">
           <img src={road_map_line} alt="" />
 
-          <div className="arrows_wrapper">
+          <Splide
+            aria-label="My Favorite Images"
+            options={{
+              perPage: 4,
+              pagination: false,
+              // arrows: false,
+              breakpoints: {
+                900: {
+                  perPage: 2,
+                },
+              },
+            }}
+          >
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box active`}>
+                <img src={road1} alt="" />
+
+                <div className="presentation">
+                  <h1>Solana Season Hackathon</h1>
+                  <p>
+                    A nft roadmap is a strategic planning tool used to set
+                    desired
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box`}>
+                <img src={road2} alt="" />
+                <div className="presentation">
+                  <h1>Solcery Forge</h1>
+                  <p>
+                    NFT projects require one, they help set purpose and intent .
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road3} alt="" />
+
+                <div className="presentation">
+                  <h1>Game builder</h1>
+                  <p>
+                    In other words, a roadmap helps set expectations on when
+                    product.
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box ${activeBox == 4 && "active"}`}>
+                <img src={road4} alt="" />
+
+                <div className="presentation">
+                  <h1>Game store</h1>
+                  <p>
+                    In other words, a roadmap helps set expectations on when
+                    product
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road1} alt="" />
+
+                <div className="presentation">
+                  <h1>Solana Season Hackathon</h1>
+                  <p>
+                    A nft roadmap is a strategic planning tool used to set
+                    desired
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box`}>
+                <img src={road2} alt="" />
+                <div className="presentation">
+                  <h1>Solcery Forge</h1>
+                  <p>
+                    NFT projects require one, they help set purpose and intent .
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road3} alt="" />
+
+                <div className="presentation">
+                  <h1>Game builder</h1>
+                  <p>
+                    In other words, a roadmap helps set expectations on when
+                    product.
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road4} alt="" />
+
+                <div className="presentation">
+                  <h1>Game store</h1>
+                  <p>
+                    In other words, a roadmap helps set expectations on when
+                    product
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road1} alt="" />
+
+                <div className="presentation">
+                  <h1>Solana Season Hackathon</h1>
+                  <p>
+                    A nft roadmap is a strategic planning tool used to set
+                    desired
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box`}>
+                <img src={road2} alt="" />
+                <div className="presentation">
+                  <h1>Solcery Forge</h1>
+                  <p>
+                    NFT projects require one, they help set purpose and intent .
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road3} alt="" />
+
+                <div className="presentation">
+                  <h1>Game builder</h1>
+                  <p>
+                    In other words, a roadmap helps set expectations on when
+                    product.
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road4} alt="" />
+
+                <div className="presentation">
+                  <h1>Game store</h1>
+                  <p>
+                    In other words, a roadmap helps set expectations on when
+                    product
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road1} alt="" />
+
+                <div className="presentation">
+                  <h1>Solana Season Hackathon</h1>
+                  <p>
+                    A nft roadmap is a strategic planning tool used to set
+                    desired
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box`}>
+                <img src={road2} alt="" />
+                <div className="presentation">
+                  <h1>Solcery Forge</h1>
+                  <p>
+                    NFT projects require one, they help set purpose and intent .
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road3} alt="" />
+
+                <div className="presentation">
+                  <h1>Game builder</h1>
+                  <p>
+                    In other words, a roadmap helps set expectations on when
+                    product.
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+
+            <SplideSlide
+              onClick={(e) => {
+                document
+                  .querySelector(".box.active")
+                  .classList.remove("active");
+                e.target.querySelector(".box").classList.add("active");
+              }}
+            >
+              <div className={`box `}>
+                <img src={road4} alt="" />
+
+                <div className="presentation">
+                  <h1>Game store</h1>
+                  <p>
+                    In other words, a roadmap helps set expectations on when
+                    product
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+          </Splide>
+
+          {/* <div className="arrows_wrapper">
             <button
               onClick={(e) => {
                 if (activeBox > 1) {
@@ -262,49 +671,7 @@ function App() {
             >
               <img src={road_map_arrow_right} alt="" />
             </button>
-          </div>
-          <div className={`box ${activeBox == 1 && "active"}`}>
-            <img src={road1} alt="" />
-
-            <div className="presentation">
-              <h1>Solana Season Hackathon</h1>
-              <p>
-                A nft roadmap is a strategic planning tool used to set desired
-              </p>
-            </div>
-          </div>
-
-          <div className={`box ${activeBox == 2 && "active"}`}>
-            <img src={road2} alt="" />
-            <div className="presentation">
-              <h1>Solcery Forge</h1>
-              <p>
-                NFT projects require one, they help set purpose and intent .
-              </p>
-            </div>
-          </div>
-
-          <div className={`box ${activeBox == 3 && "active"}`}>
-            <img src={road3} alt="" />
-
-            <div className="presentation">
-              <h1>Game builder</h1>
-              <p>
-                In other words, a roadmap helps set expectations on when
-                product.
-              </p>
-            </div>
-          </div>
-          <div className={`box ${activeBox == 4 && "active"}`}>
-            <img src={road4} alt="" />
-
-            <div className="presentation">
-              <h1>Game store</h1>
-              <p>
-                In other words, a roadmap helps set expectations on when product
-              </p>
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

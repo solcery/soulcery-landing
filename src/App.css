@@ -186,7 +186,12 @@ main .box_wrapper p {
   line-height: 56px;
   letter-spacing: 0em;
   text-align: center;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
+}
+
+.made_width_solcery .splide.is-initialized {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 .made_width_solcery .cards_wrapper {
   display: grid;
@@ -247,7 +252,7 @@ main .box_wrapper p {
 /* CollectionCard */
 .CollectionCard {
   padding: 2rem 1.5rem;
-  width: 360px;
+  width: 100%;
 }
 
 .collection .splide.is-initialized {
@@ -419,19 +424,24 @@ main .box_wrapper p {
 .Createors > img {
   top: 23rem;
   position: absolute;
+  filter: brightness(50%);
 }
 .Players > img {
   top: 23rem;
   right: 0px;
   position: absolute;
+  filter: brightness(50%);
 }
+
 .Createors > img:first-child,
 .Players > img:first-child {
   right: 50%;
   transform: translateX(50%);
   top: 0px;
 }
-
+.Createors > img:first-child {
+  right: 70%;
+}
 .Createors .lists,
 .Players .lists {
   padding: 0rem 10rem;
@@ -497,12 +507,11 @@ main .box_wrapper p {
 
 /* slider_box */
 .slider_box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 5rem;
   padding: 0rem 4rem;
 }
-.slider_box > * {
+
+.slider_box .box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -510,11 +519,26 @@ main .box_wrapper p {
   position: relative;
   padding-bottom: 4rem;
 }
-.slider_box > .box {
+.slider_box .box {
   border-bottom: 2px solid #13283f;
 }
-
-.slider_box > *.active::after {
+.slider_box .splide__arrow svg {
+  fill: #fff;
+}
+.slider_box .splide__arrow--prev {
+  left: -4em !important;
+}
+.slider_box .splide__arrow--next {
+  right: -4em !important;
+}
+.slider_box .splide__arrow {
+  opacity: 1 !important;
+  background-color: #161835 !important;
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 50%;
+}
+.slider_box .box.active::after {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -528,6 +552,12 @@ main .box_wrapper p {
     rgba(4, 9, 15, 0) 100%
   );
   border-bottom: 2px solid #801887;
+}
+.splide__slide {
+  cursor: pointer;
+}
+.splide__slide > * {
+  pointer-events: none !important;
 }
 .slider_box > *.active::before {
   width: 100%;
@@ -544,7 +574,7 @@ main .box_wrapper p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 470px;
+  top: 520px;
   width: 70%;
   content: "";
   z-index: -22;
