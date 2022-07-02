@@ -124,7 +124,7 @@ function App() {
             aria-label="My Favorite Images"
             options={{
               perPage: 3,
-
+              gap: 20,
               arrows: false,
               breakpoints: {
                 900: {
@@ -201,14 +201,14 @@ function App() {
         </div>
       </div>
 
-      <div className="collection">
+      <div className="collection common_width">
         <h2>Supported</h2>
         <h1>Collection</h1>
 
         <Splide
           aria-label="My Favorite Images"
           options={{
-            perPage: 6,
+            perPage: 3,
             gap: 20,
             arrows: false,
             breakpoints: {
@@ -326,10 +326,13 @@ function App() {
             options={{
               perPage: 4,
               pagination: false,
-              // arrows: false,
+
               breakpoints: {
                 900: {
                   perPage: 2,
+                },
+                600: {
+                  perPage: 1,
                 },
               },
             }}

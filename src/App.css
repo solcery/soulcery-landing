@@ -179,6 +179,7 @@ main .box_wrapper p {
   right: 0px;
   top: 100px;
   z-index: 999999;
+  pointer-events: none;
 }
 .made_width_solcery > h1 {
   font-size: 43px;
@@ -190,8 +191,8 @@ main .box_wrapper p {
 }
 
 .made_width_solcery .splide.is-initialized {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  /* padding-left: 0px !important; */
+  /* padding-right: 0px !important; */
 }
 .made_width_solcery .cards_wrapper {
   display: grid;
@@ -518,6 +519,7 @@ main .box_wrapper p {
   text-align: center;
   position: relative;
   padding-bottom: 4rem;
+  height: 100%;
 }
 .slider_box .box {
   border-bottom: 2px solid #13283f;
@@ -671,7 +673,7 @@ main .box_wrapper p {
     display: none;
   }
   .slider_box {
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
   }
   .team_wrapper {
     grid-template-columns: 1fr 1fr 1fr;
@@ -712,11 +714,17 @@ main .box_wrapper p {
   main h1 {
     font-size: 43px;
   }
+  .collection .splide__pagination {
+    bottom: -5rem !important;
+  }
+  .collection .splide__pagination__page {
+    margin-top: 0px !important;
+  }
 }
 @media screen and (max-width: 700px) {
-  .slider_box {
+  /* .slider_box {
     grid-template-columns: 1fr;
-  }
+  } */
   .Createors .lists,
   .Players .lists {
     padding: 0px;
@@ -741,11 +749,27 @@ main .box_wrapper p {
     width: 10px !important;
     height: 10px !important;
   }
+  .slider_box .splide__slide .box img {
+    width: 120px;
+  }
+  .slider_box .splide__arrow {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  .slider_box .splide__arrow svg {
+    width: 20px;
+    height: 20px;
+  }
+  .slider_box .splide.is-initialized {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 @media screen and (max-width: 530px) {
-  .team_wrapper {
-    grid-template-columns: 1fr;
+  .team .Team img {
+    width: 150px;
   }
+
   .team > p,
   .investor_wrapper > p,
   .inner_contact > p,
@@ -813,10 +837,33 @@ main .box_wrapper p {
     padding-bottom: 4rem;
   }
 }
+@media screen and (max-width: 440px) {
+  .team_wrapper {
+    grid-column-gap: 10px;
+    grid-row-gap: 2rem;
+  }
+  .team .Team .presentation > h1 {
+    font-size: 20px;
+  }
+  .team .Team .presentation > p {
+    font-size: 14px;
+  }
+  .team .Team img {
+    width: 120px;
+  }
+}
 @media screen and (max-width: 400px) {
   .slider_box p {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .team_wrapper {
+    grid-template-columns: 1fr;
+  }
+  .team .Team img {
+    width: 90%;
   }
 }
