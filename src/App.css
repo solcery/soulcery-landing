@@ -766,6 +766,14 @@ main .box_wrapper p {
   }
 }
 @media screen and (max-width: 530px) {
+  .collection .splide__pagination,
+  .slider_box .splide__arrow {
+    display: none;
+  }
+  .slider_box {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .team .Team img {
     width: 150px;
   }

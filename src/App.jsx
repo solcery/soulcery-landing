@@ -654,27 +654,6 @@ function App() {
               </div>
             </SplideSlide>
           </Splide>
-
-          {/* <div className="arrows_wrapper">
-            <button
-              onClick={(e) => {
-                if (activeBox > 1) {
-                  setactiveBox(activeBox - 1);
-                }
-              }}
-            >
-              <img src={road_map_arrow} alt="" />
-            </button>
-            <button
-              onClick={(e) => {
-                if (activeBox < 4) {
-                  setactiveBox(activeBox + 1);
-                }
-              }}
-            >
-              <img src={road_map_arrow_right} alt="" />
-            </button>
-          </div> */}
         </div>
       </div>
 
