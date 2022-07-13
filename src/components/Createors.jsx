@@ -1,5 +1,5 @@
 import React from "react";
-import line from "../assets/img/line.png";
+// import line from "../assets/img/line.png";
 import cr1 from "../assets/img/cr1.png";
 import cr2 from "../assets/img/cr2.png";
 import cr3 from "../assets/img/cr3.png";
@@ -11,7 +11,7 @@ export const Createors = () => {
       <h1>For Creators</h1>
       <p>Work together with game creators and NFT communities</p>
 
-      <img src={line} alt="" />
+      {/* <img src={line} alt="" /> */}
 
       <div className="lists">
         <div className="list">

@@ -1,5 +1,5 @@
 import React from "react";
-import line from "../assets/img/line.png";
+// import line from "../assets/img/line.png";
 import p1 from "../assets/img/p1.png";
 import p2 from "../assets/img/p2.png";
 import p3 from "../assets/img/p3.png";
@@ -11,7 +11,7 @@ export const Players = () => {
       <h1>For Players</h1>
       <p>These games were made to showcase what Solcery is capable of</p>
 
-      <img src={line} alt="" />
+      {/* <img src={line} alt="" /> */}
 
       <div className="lists">
         <div className="list">
