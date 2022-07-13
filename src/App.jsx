@@ -25,9 +25,9 @@ import team5 from "./assets/img/team5.png";
 import team6 from "./assets/img/team6.png";
 import team7 from "./assets/img/team7.png";
 import team8 from "./assets/img/team8.png";
-import inves1 from "./assets/img/inves1.png";
-import inves2 from "./assets/img/inves2.png";
-import inves3 from "./assets/img/inves3.png";
+import cultur3 from "./assets/img/investors/Cultur3.png";
+import sino from "./assets/img/investors/Sino.png";
+import solana from "./assets/img/investors/Solana.png";
 import inves4 from "./assets/img/inves4.png";
 import team_circle from "./assets/img/team_circle.png";
 import road_map_line from "./assets/img/lone_line_road_map.png";
@@ -682,17 +682,16 @@ function App() {
         </div>
       </div>
       <div className="investor_wrapper common_width">
-        <h1>Our Investors</h1>
+        <h1>Investors</h1>
         <p>
-          Partnering with Global Visionaries to make millions fall in love with
-          learning
+        We are honoured to be backed and adviced by these powerhouses. They have been of an immense help and an endless source of knowledge, feedback and experience in our journey so far.
         </p>
 
         <div className="inves_pic">
-          <img src={inves1} alt="" />
-          <img src={inves2} alt="" />
-          <img src={inves3} alt="" />
-          <img src={inves4} alt="" />
+          <img src={cultur3} alt="" />
+          <img src={sino} alt="" />
+          <img src={solana} alt="" />
+          {/* <img src={inves4} alt="" /> */}
         </div>
       </div>
 

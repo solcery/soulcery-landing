@@ -371,12 +371,13 @@ main .box_wrapper p {
   padding: 7rem 0rem;
 }
 .investor_wrapper > p {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 .investor_wrapper .inves_pic {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  align-items: center;
 }
 .investor_wrapper .inves_pic img {
   width: 100%;
