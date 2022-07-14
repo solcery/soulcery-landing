@@ -16,7 +16,7 @@ import made_circle_rigth from "./assets/img/made_circle_rigth.png";
 
 import play_now from "./assets/img/play_now.png";
 import footer_logo from "./assets/img/footer_logo.svg";
-import { MadeSolceryCard } from "./components/MadeSolceryCard";
+import { GameCard } from "./components/GameCard";
 
 import okay_bears from "./assets/img/collections/okay_bears.webp";
 import degods from "./assets/img/collections/degods.webp";
@@ -149,21 +149,21 @@ function App() {
             }}
           >
             <SplideSlide>
-              <MadeSolceryCard
+              <GameCard
                 img={summoner_cover}
                 heading="Summoner"
                 para="Summoner is a deckbuilding PvP game. You will be building a deck from a constantly replenished  set of cards always available to both players and aim to defeat your opponent with them."
               />
             </SplideSlide>
             <SplideSlide>
-              <MadeSolceryCard
+              <GameCard
                 img={eclipse_cover}
                 heading="Eclipse"
                 para="Eclipse is a single-player resource management strategy game about a band of individuals forced to work together in their desperate struggle to live through a magical catastrophe ravaging their world."
               />
             </SplideSlide>
             <SplideSlide>
-              <MadeSolceryCard
+              <GameCard
                 img={solitary_cover}
                 heading="Solitary"
                 para="Single-player roguelike deckbuilder that takes you for an adventure through a dungeon teeming with monsters and otherworldly threats."
@@ -174,8 +174,8 @@ function App() {
       </div>
 
       <div className="collection common_width">
+        <h1>Collections</h1>
         <h2>Supported</h2>
-        <h1>Collection</h1>
 
         <Splide
           aria-label="My Favorite Images"
@@ -203,25 +203,46 @@ function App() {
           }}
         >
           <SplideSlide>
-            <CollectionCard img={okay_bears} />
+            <CollectionCard
+              img={okay_bears}
+              heading="Okay Bears"
+            />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={degods} />
+            <CollectionCard 
+            img={degods} 
+            heading="DeGods" 
+            />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={daa} />
+            <CollectionCard 
+            img={daa} 
+            heading="Degenerate Ape Academy"
+            />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={bd} />
+            <CollectionCard 
+            img={bd} 
+            heading="Boryoku Dragons"
+            />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={bbd} />
+            <CollectionCard 
+            img={bbd} 
+            heading="Boryoku Baby Dragons"
+            />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={smb} />
+            <CollectionCard 
+            img={smb} 
+            heading="Solana Monkey Business"
+            />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={solgods} />
+            <CollectionCard 
+            img={solgods} 
+            heading="SOLgods"
+            />
           </SplideSlide>
         </Splide>
       </div>

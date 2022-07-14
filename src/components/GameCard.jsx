@@ -1,6 +1,6 @@
 import React from "react";
 
-export const MadeSolceryCard = ({ img, heading, para }) => {
+export const GameCard = ({ img, heading, para }) => {
   return (
     <div className="MadeSolceryCard">
       <img src={img} alt="" />

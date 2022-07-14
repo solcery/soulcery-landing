@@ -242,6 +242,7 @@ main .box_wrapper p {
   letter-spacing: 0em;
   text-align: center;
   color: #2ddef3;
+  margin-bottom: 3rem;
 }
 .collection > h1 {
   font-size: 43px;
@@ -250,7 +251,7 @@ main .box_wrapper p {
   letter-spacing: 0em;
   text-align: center;
   color: #fff;
-  margin-bottom: 5rem;
+  
 }
 
 /* CollectionCard */
@@ -264,7 +265,7 @@ main .box_wrapper p {
 }
 
 .collection .splide__pagination {
-  bottom: -5rem !important;
+  bottom: -4rem !important;
 }
 .CollectionCard .presentation {
   padding-left: 0px;

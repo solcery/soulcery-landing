@@ -1,6 +1,6 @@
 import React from "react";
 import eth from "../assets/img/eth.svg";
-export const CollectionCard = ({ img }) => {
+export const CollectionCard = ({ img, heading }) => {
   return (
     <div className="MadeSolceryCard CollectionCard">
       <img src={img} alt="" />
@@ -10,7 +10,7 @@ export const CollectionCard = ({ img }) => {
           <p>6 day left</p>
         </div>
         <div className="bottom_area">
-          <h1>Punk #58744</h1>
+          <h1>{heading}</h1>
           <p>
             <img src={eth} alt="" />
             0.87777
