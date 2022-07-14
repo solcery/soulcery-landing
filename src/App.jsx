@@ -13,9 +13,9 @@ import made_circle_rigth from "./assets/img/made_circle_rigth.png";
 import play_now from "./assets/img/play_now.png";
 import footer_logo from "./assets/img/footer_logo.svg";
 import { MadeSolceryCard } from "./components/MadeSolceryCard";
-import card1img from "./assets/img/made_card_1.png";
-import card2img from "./assets/img/made_card_2.png";
-import card3img from "./assets/img/made_card_3.png";
+import summoner_cover from "./assets/img/games/summoner.png";
+import eclipse_cover from "./assets/img/games/eclipse.png";
+import solitary_cover from "./assets/img/games/solitary.png";
 import ssc from "./assets/img/collections/ssc.webp";
 import second_eth from "./assets/img/second_eth.png";
 import third_eth from "./assets/img/third_eth.png";
@@ -136,70 +136,28 @@ function App() {
                   perPage: 1,
                 },
               },
+              // speed: 1000,
             }}
           >
             <SplideSlide>
               <MadeSolceryCard
-                img={card1img}
-                heading="Service 01"
-                para="Solcery Editor is web-based and does not require any external building"
+                img={summoner_cover}
+                heading="Summoner"
+                para="Summoner is a deckbuilding PvP game. You will be building a deck from a constantly replenished  set of cards always available to both players and aim to defeat your opponent with them."
               />
             </SplideSlide>
             <SplideSlide>
               <MadeSolceryCard
-                img={card2img}
-                heading="Service 02"
-                para="Solcery Editor is web-based and does not require any external building"
+                img={eclipse_cover}
+                heading="Eclipse"
+                para="Eclipse is a single-player resource management strategy game about a band of individuals forced to work together in their desperate struggle to live through a magical catastrophe ravaging their world."
               />
             </SplideSlide>
             <SplideSlide>
               <MadeSolceryCard
-                img={card3img}
-                heading="Service 03"
-                para="Solcery Editor is web-based and does not require any external building"
-              />
-            </SplideSlide>
-
-            <SplideSlide>
-              <MadeSolceryCard
-                img={card1img}
-                heading="Service 01"
-                para="Solcery Editor is web-based and does not require any external building"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <MadeSolceryCard
-                img={card2img}
-                heading="Service 02"
-                para="Solcery Editor is web-based and does not require any external building"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <MadeSolceryCard
-                img={card3img}
-                heading="Service 03"
-                para="Solcery Editor is web-based and does not require any external building"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <MadeSolceryCard
-                img={card1img}
-                heading="Service 01"
-                para="Solcery Editor is web-based and does not require any external building"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <MadeSolceryCard
-                img={card2img}
-                heading="Service 02"
-                para="Solcery Editor is web-based and does not require any external building"
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <MadeSolceryCard
-                img={card3img}
-                heading="Service 03"
-                para="Solcery Editor is web-based and does not require any external building"
+                img={solitary_cover}
+                heading="Solitary"
+                para="Single-player roguelike deckbuilder that takes you for an adventure through a dungeon teeming with monsters and otherworldly threats."
               />
             </SplideSlide>
           </Splide>
