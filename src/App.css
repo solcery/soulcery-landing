@@ -280,7 +280,7 @@ main .box_wrapper p {
 .CollectionCard .presentation .bottom_area {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .CollectionCard .presentation .bottom_area p {
   display: flex;
@@ -299,6 +299,9 @@ main .box_wrapper p {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
 }
 
 /* Tean */

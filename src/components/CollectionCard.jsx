@@ -5,16 +5,16 @@ export const CollectionCard = ({ img, heading }) => {
     <div className="MadeSolceryCard CollectionCard">
       <img src={img} alt="" />
       <div className="presentation">
-        <div className="top_area">
+        {/* <div className="top_area">
           <p>Polygonpnks-office...</p>
           <p>6 day left</p>
-        </div>
+        </div> */}
         <div className="bottom_area">
           <h1>{heading}</h1>
-          <p>
+          {/* <p>
             <img src={eth} alt="" />
             0.87777
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
