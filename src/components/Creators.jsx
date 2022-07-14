@@ -4,7 +4,7 @@ import cr1 from "../assets/img/cr1.png";
 import cr2 from "../assets/img/cr2.png";
 import cr3 from "../assets/img/cr3.png";
 import c_circle from "../assets/img/c_circle.png";
-export const Createors = () => {
+export const Creators = () => {
   return (
     <div className="Createors common_width">
       <img src={c_circle} alt="" />

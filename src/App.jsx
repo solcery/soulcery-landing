@@ -7,16 +7,25 @@ import github from "./assets/img/header/github.svg";
 import medium from "./assets/img/header/medium.svg";
 import discord from "./assets/img/header/discord.svg";
 
+import summoner_cover from "./assets/img/games/summoner.png";
+import eclipse_cover from "./assets/img/games/eclipse.png";
+import solitary_cover from "./assets/img/games/solitary.png";
+
 import left_side_made from "./assets/img/made_circle_left.png";
 import made_circle_rigth from "./assets/img/made_circle_rigth.png";
 
 import play_now from "./assets/img/play_now.png";
 import footer_logo from "./assets/img/footer_logo.svg";
 import { MadeSolceryCard } from "./components/MadeSolceryCard";
-import summoner_cover from "./assets/img/games/summoner.png";
-import eclipse_cover from "./assets/img/games/eclipse.png";
-import solitary_cover from "./assets/img/games/solitary.png";
-import ssc from "./assets/img/collections/ssc.webp";
+
+import okay_bears from "./assets/img/collections/okay_bears.webp";
+import degods from "./assets/img/collections/degods.webp";
+import daa from "./assets/img/collections/daa.webp";
+import bd from "./assets/img/collections/bd.webp";
+import bbd from "./assets/img/collections/bbd.webp";
+import smb from "./assets/img/collections/smb.webp";
+import solgods from "./assets/img/collections/solgods.webp";
+
 import second_eth from "./assets/img/second_eth.png";
 import third_eth from "./assets/img/third_eth.png";
 import team1 from "./assets/img/team1.png";
@@ -54,7 +63,7 @@ import "@splidejs/react-splide/css/sea-green";
 import "@splidejs/react-splide/css/core";
 import { CollectionCard } from "./components/CollectionCard";
 import { Team } from "./components/Team";
-import { Createors } from "./components/Createors";
+import { Creators as Creators } from "./components/Creators";
 import { Players } from "./components/Players";
 
 function App() {
@@ -194,84 +203,30 @@ function App() {
           }}
         >
           <SplideSlide>
-            <CollectionCard img={ssc} />
+            <CollectionCard img={okay_bears} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={second_eth} />
+            <CollectionCard img={degods} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={third_eth} />
+            <CollectionCard img={daa} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={ssc} />
+            <CollectionCard img={bd} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={second_eth} />
+            <CollectionCard img={bbd} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={third_eth} />
-          </SplideSlide>
-
-          <SplideSlide>
-            <CollectionCard img={ssc} />
+            <CollectionCard img={smb} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={second_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={third_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={ssc} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={second_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={third_eth} />
-          </SplideSlide>
-
-          <SplideSlide>
-            <CollectionCard img={ssc} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={second_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={third_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={ssc} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={second_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={third_eth} />
-          </SplideSlide>
-
-          <SplideSlide>
-            <CollectionCard img={ssc} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={second_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={third_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={ssc} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={second_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={third_eth} />
+            <CollectionCard img={solgods} />
           </SplideSlide>
         </Splide>
       </div>
 
-      <Createors />
+      <Creators />
       <Players />
 
       <div className="team common_width">
