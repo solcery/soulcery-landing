@@ -815,7 +815,7 @@ main .box_wrapper p {
     width: 90% !important;
   }
   .investor_wrapper .inves_pic {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .main_area {
     height: 800px;
