@@ -62,6 +62,9 @@ header {
   justify-content: space-between;
   height: 150px;
 }
+header > img {
+  margin-right: 50px;
+}
 header nav > * + * {
   margin-left: 0.5rem;
 }
@@ -190,10 +193,10 @@ main .box_wrapper p {
   margin-bottom: 3rem;
 }
 
-.made_width_solcery .splide.is-initialized {
-  /* padding-left: 0px !important; */
-  /* padding-right: 0px !important; */
-}
+/* .made_width_solcery .splide.is-initialized {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+} */
 .made_width_solcery .cards_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -293,6 +296,7 @@ main .box_wrapper p {
 .CollectionCard .presentation .bottom_area h1 {
   background: -webkit-linear-gradient(#30e6ff, #ea45fc);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -673,9 +677,9 @@ main .box_wrapper p {
   .slider_box > img {
     display: none;
   }
-  .slider_box {
-    /* grid-template-columns: 1fr 1fr; */
-  }
+  /* .slider_box {
+    grid-template-columns: 1fr 1fr;
+  } */
   .team_wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -735,6 +739,7 @@ main .box_wrapper p {
 @media screen and (max-width: 650px) {
   header > img {
     width: 200px;
+    margin-right: 30px;
   }
   header nav img {
     width: 40px;
@@ -830,6 +835,7 @@ main .box_wrapper p {
   }
   header > img {
     width: 150px;
+    margin-right: 30px;
   }
   header nav img,
   .inner_contact nav img {
