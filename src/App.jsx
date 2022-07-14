@@ -14,7 +14,7 @@ import { MadeSolceryCard } from "./components/MadeSolceryCard";
 import card1img from "./assets/img/made_card_1.png";
 import card2img from "./assets/img/made_card_2.png";
 import card3img from "./assets/img/made_card_3.png";
-import first_eth from "./assets/img/first_eth.png";
+import ssc from "./assets/img/collections/ssc.webp";
 import second_eth from "./assets/img/second_eth.png";
 import third_eth from "./assets/img/third_eth.png";
 import team1 from "./assets/img/team1.png";
@@ -231,7 +231,7 @@ function App() {
           }}
         >
           <SplideSlide>
-            <CollectionCard img={first_eth} />
+            <CollectionCard img={ssc} />
           </SplideSlide>
           <SplideSlide>
             <CollectionCard img={second_eth} />
@@ -240,26 +240,7 @@ function App() {
             <CollectionCard img={third_eth} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={first_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={second_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={third_eth} />
-          </SplideSlide>
-
-          <SplideSlide>
-            <CollectionCard img={first_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={second_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={third_eth} />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard img={first_eth} />
+            <CollectionCard img={ssc} />
           </SplideSlide>
           <SplideSlide>
             <CollectionCard img={second_eth} />
@@ -269,7 +250,7 @@ function App() {
           </SplideSlide>
 
           <SplideSlide>
-            <CollectionCard img={first_eth} />
+            <CollectionCard img={ssc} />
           </SplideSlide>
           <SplideSlide>
             <CollectionCard img={second_eth} />
@@ -278,7 +259,7 @@ function App() {
             <CollectionCard img={third_eth} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={first_eth} />
+            <CollectionCard img={ssc} />
           </SplideSlide>
           <SplideSlide>
             <CollectionCard img={second_eth} />
@@ -288,7 +269,7 @@ function App() {
           </SplideSlide>
 
           <SplideSlide>
-            <CollectionCard img={first_eth} />
+            <CollectionCard img={ssc} />
           </SplideSlide>
           <SplideSlide>
             <CollectionCard img={second_eth} />
@@ -297,7 +278,26 @@ function App() {
             <CollectionCard img={third_eth} />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard img={first_eth} />
+            <CollectionCard img={ssc} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={second_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={third_eth} />
+          </SplideSlide>
+
+          <SplideSlide>
+            <CollectionCard img={ssc} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={second_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={third_eth} />
+          </SplideSlide>
+          <SplideSlide>
+            <CollectionCard img={ssc} />
           </SplideSlide>
           <SplideSlide>
             <CollectionCard img={second_eth} />
