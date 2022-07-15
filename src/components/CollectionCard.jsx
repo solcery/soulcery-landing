@@ -1,5 +1,4 @@
 import React from "react";
-import eth from "../assets/img/eth.svg";
 export const CollectionCard = ({ img, heading }) => {
   return (
     <div className="MadeSolceryCard CollectionCard">

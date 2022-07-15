@@ -2,22 +2,18 @@ import "./App.css";
 import { useState } from "react";
 import logo from "./assets/img/logo.svg";
 
+//Links
 import twitter from "./assets/img/header/twitter.svg";
 import github from "./assets/img/header/github.svg";
 import medium from "./assets/img/header/medium.svg";
 import discord from "./assets/img/header/discord.svg";
 
-import summoner_cover from "./assets/img/games/summoner.png";
-import eclipse_cover from "./assets/img/games/eclipse.png";
-import solitary_cover from "./assets/img/games/solitary.png";
+//Games
+import summoner_cover from "./assets/img/games/summoner.webp";
+import eclipse_cover from "./assets/img/games/eclipse.webp";
+import solitary_cover from "./assets/img/games/solitary.webp";
 
-import left_side_made from "./assets/img/made_circle_left.png";
-import made_circle_rigth from "./assets/img/made_circle_rigth.png";
-
-import play_now from "./assets/img/play_now.png";
-import footer_logo from "./assets/img/footer_logo.svg";
-import { GameCard } from "./components/GameCard";
-
+//Collections
 import okay_bears from "./assets/img/collections/okay_bears.webp";
 import degods from "./assets/img/collections/degods.webp";
 import daa from "./assets/img/collections/daa.webp";
@@ -26,19 +22,38 @@ import bbd from "./assets/img/collections/bbd.webp";
 import smb from "./assets/img/collections/smb.webp";
 import solgods from "./assets/img/collections/solgods.webp";
 
+//Team
+import tjumma from "./assets/img/team/tjumma.webp";
+import teuzet from "./assets/img/team/teuzet.webp";
+import ellador from "./assets/img/team/ellador.webp";
+import kurutsu from "./assets/img/team/kurutsu.webp";
+import opensr from "./assets/img/team/opensr.webp";
+import kungurov from "./assets/img/team/kungurov.webp";
+import loogris from "./assets/img/team/loogris.webp";
+import irina from "./assets/img/team/irina.webp";
+import merlin from "./assets/img/team/merlin.webp";
+import mari from "./assets/img/team/mari.webp";
+
+//Investors
+import cultur3 from "./assets/img/investors/Cultur3.webp";
+import sino from "./assets/img/investors/Sino.webp";
+import solana from "./assets/img/investors/Solana.webp";
+
+import left_side_made from "./assets/img/made_circle_left.png";
+import made_circle_rigth from "./assets/img/made_circle_rigth.png";
+
+import play_now from "./assets/img/play_now.png";
+import footer_logo from "./assets/img/footer_logo.svg";
+import { GameCard } from "./components/GameCard";
+
+
+
 import second_eth from "./assets/img/second_eth.png";
 import third_eth from "./assets/img/third_eth.png";
-import team1 from "./assets/img/team1.png";
-import team2 from "./assets/img/team2.png";
-import team3 from "./assets/img/team3.png";
-import team4 from "./assets/img/team4.png";
-import team5 from "./assets/img/team5.png";
-import team6 from "./assets/img/team6.png";
-import team7 from "./assets/img/team7.png";
-import team8 from "./assets/img/team8.png";
-import cultur3 from "./assets/img/investors/Cultur3.png";
-import sino from "./assets/img/investors/Sino.png";
-import solana from "./assets/img/investors/Solana.png";
+
+
+
+
 import team_circle from "./assets/img/team_circle.png";
 import road_map_line from "./assets/img/lone_line_road_map.png";
 
@@ -104,12 +119,11 @@ function App() {
 
         <main className="common_width">
           <div className="presentation">
-            <h2>Zero-Code</h2>
-            <h1>Game Engine on Solana</h1>
+            <h2>Zero-code</h2>
+            <h1>Game Engine</h1>
+            <h3>powered by Solana</h3>
             <p>
-              Solcery comes with an intuitive visual programming node editor
-              that allows you to rapidly prototype, expand, and edit your game
-              logic
+              Create truly decentralized games in days
             </p>
             <button>
               <img src={play_now} alt="" />
@@ -118,11 +132,7 @@ function App() {
 
           <div className="box_wrapper">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries
+              Solcery is a zero-code on-chain game engine on Solana that gives its users a quick and easy way to create blockchain game experiences, instant access to an ever-growing library of these games, and an ability to turn any NFTs they own into the in-game assets with unique game mechanics.
             </p>
           </div>
         </main>
@@ -188,10 +198,10 @@ function App() {
                 perPage: 2,
               },
               1940: {
-                perPage: 5,
+                perPage: 6,
               },
               1610: {
-                perPage: 4,
+                perPage: 6,
               },
               1150: {
                 perPage: 3,
@@ -209,39 +219,39 @@ function App() {
             />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard 
-            img={degods} 
-            heading="DeGods" 
+            <CollectionCard
+              img={degods}
+              heading="DeGods"
             />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard 
-            img={daa} 
-            heading="Degenerate Ape Academy"
+            <CollectionCard
+              img={daa}
+              heading="Degenerate Ape Academy"
             />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard 
-            img={bd} 
-            heading="Boryoku Dragons"
+            <CollectionCard
+              img={bd}
+              heading="Boryoku Dragons"
             />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard 
-            img={bbd} 
-            heading="Boryoku Baby Dragons"
+            <CollectionCard
+              img={bbd}
+              heading="Boryoku Baby Dragons"
             />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard 
-            img={smb} 
-            heading="Solana Monkey Business"
+            <CollectionCard
+              img={smb}
+              heading="Solana Monkey Business"
             />
           </SplideSlide>
           <SplideSlide>
-            <CollectionCard 
-            img={solgods} 
-            heading="SOLgods"
+            <CollectionCard
+              img={solgods}
+              heading="SOLgods"
             />
           </SplideSlide>
         </Splide>
@@ -320,24 +330,21 @@ function App() {
         <img src={team_circle} alt="" />
         <h1>Team</h1>
         <p>
-          Right so community managers there's different types you want to have
-          mods as well and then as the community builds. Can start to get these
-          people and build out the team
+          Most members of our team are gamedev veterans and have worked
+          side by side on many projects before. We are happy to be able to put our forces together to create Solcery, mixing our knowledge and previous experience with a new vision for the future of the whole industry.
         </p>
 
         <div className="team_wrapper">
-          <Team img={team1} heading="Tjumma" para="Product Management" />
-          <Team img={team2} heading="Teuzet" para="Development" />
-          <Team img={team3} heading="Ellader" para="Game Design" />
-          <Team img={team4} heading="Kurutsu" para="Rust Development" />
-          <Team img={team5} heading="Last_admiral" para="UI/UX Designer" />
-          <Team img={team6} heading="OpenSR" para="UI/UX Designer" />
-          <Team
-            img={team7}
-            heading="A rtem.Kungurov"
-            para="Unity Development"
-          />
-          <Team img={team8} heading="Thomas Lee" para="Unity Development" />
+          <Team img={tjumma} heading="tjumma" para="Co-founder" />
+          <Team img={teuzet} heading="teuzet" para="Co-founder" />
+          <Team img={ellador} heading="ellador" para="Lead Game Designer" />
+          <Team img={kurutsu} heading="kurutsu" para="Rust Developer" />
+          <Team img={opensr} heading="opensr" para="Lead Unity Developer" />
+          <Team img={kungurov} heading="kungurov" para="Unity Developer" />
+          <Team img={loogris} heading="loogris" para="Game Designer" />
+          <Team img={irina} heading="irina" para="Sage Product Designer" />
+          <Team img={merlin} heading="merlin" para="Advisor" />
+          <Team img={mari} heading="mari" para="Artist" />
         </div>
       </div>
       <div className="investor_wrapper common_width">
