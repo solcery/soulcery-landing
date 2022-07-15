@@ -7,7 +7,7 @@ import c_circle from "../assets/img/c_circle.png";
 export const Creators = () => {
   return (
     <div className="Createors common_width">
-      <img src={c_circle} alt="" />
+      <img src={c_circle} alt="" style = {{ zIndex: -100}}/>
       <h1>For Creators</h1>
       <p>Work together with game creators and NFT communities</p>
 

@@ -123,7 +123,7 @@ function App() {
             <h1>Game Engine</h1>
             <h3>powered by Solana</h3>
             <p>
-              Create truly decentralized games in days
+              Create truly decentralized, open-source, community-driven games that can easily integrate any NFT collection on Solana
             </p>
             <button>
               <img src={play_now} alt="" />
@@ -139,8 +139,8 @@ function App() {
       </div>
 
       <div className="made_width_solcery_wrapper">
-        <img src={left_side_made} alt="" className="left_side" />
-        <img src={made_circle_rigth} alt="" className="right_side" />
+        <img src={left_side_made} alt="" className="left_side" style = {{zIndex: -100}}/>
+        <img src={made_circle_rigth} alt="" className="right_side" style = {{zIndex: -100}}/>
         <div className="made_width_solcery common_width">
           <h1>Made with Solcery</h1>
 
@@ -198,10 +198,10 @@ function App() {
                 perPage: 2,
               },
               1940: {
-                perPage: 6,
+                perPage: 5,
               },
               1610: {
-                perPage: 6,
+                perPage: 5,
               },
               1150: {
                 perPage: 3,
@@ -327,7 +327,7 @@ function App() {
       </div>
 
       <div className="team common_width">
-        <img src={team_circle} alt="" />
+        <img src={team_circle} alt="" style = {{zIndex: -100}}/>
         <h1>Team</h1>
         <p>
           Most members of our team are gamedev veterans and have worked
