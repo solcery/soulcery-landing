@@ -7,7 +7,7 @@ import p_circle from "../assets/img/p_circle.png";
 export const Players = () => {
   return (
     <div className="Players common_width">
-      <img src={p_circle} alt="" />
+      <img src={p_circle} alt="" style = {{zIndex: -100}}/>
       <h1>For Players</h1>
       <p>These games were made to showcase what Solcery is capable of</p>
 
