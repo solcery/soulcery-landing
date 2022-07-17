@@ -17,33 +17,27 @@ export const Players = () => {
         <div className="list">
           <img src={p1} alt="" />
           <div className="box">
-            <h1>SUMMONER</h1>
+            <h1>True interoperability</h1>
             <p>
-              Easy-to-learn PvP deck-building game, where players acquire coins,
-              buy new creatures from a shared pool of cards, and summon them to
-              slay the opponent.
+
             </p>
           </div>
         </div>
         <div className="list">
           <img src={p2} alt="" />
           <div className="box">
-            <h1>SOLITARY</h1>
+            <h1>Participate</h1>
             <p>
-              Single-player roguelike deckbuilder that takes you for an
-              adventure through a dungeon teeming with monsters and otherworldly
-              threats. Bring your NFTs.
+              
             </p>
           </div>
         </div>
         <div className="list">
           <img src={p3} alt="" />
           <div className="box">
-            <h1>SUMMONER</h1>
+            <h1>E-sports ready</h1>
             <p>
-              Easy-to-learn PvP deck-building game, where players acquire coins,
-              buy new creatures from a shared pool of cards, and summon them to
-              slay the opponent.
+              
             </p>
           </div>
         </div>

@@ -1,8 +1,9 @@
 import React from "react";
 // import line from "../assets/img/line.png";
-import cr1 from "../assets/img/cr1.png";
-import cr2 from "../assets/img/cr2.png";
-import cr3 from "../assets/img/cr3.png";
+import cr1 from "../assets/img/creators/1.webp";
+import cr2 from "../assets/img/creators/3.webp";
+import cr3 from "../assets/img/creators/2.webp";
+
 import c_circle from "../assets/img/c_circle.png";
 export const Creators = () => {
   return (
@@ -15,34 +16,31 @@ export const Creators = () => {
 
       <div className="lists">
         <div className="list">
-          <img src={cr1} alt="" />
+          <img src={cr1} alt="" style = {{ width: 655 }}/>
           <div className="box">
-            <h1>Construct game logic with ease</h1>
+            <h1>From idea to players in days</h1>
             <p>
               Solcery comes with an intuitive visual programming node editor
               that allows you to rapidly prototype, expand, and edit your game
-              logic
+              logic...fast deploys...
             </p>
           </div>
         </div>
         <div className="list">
-          <img src={cr2} alt="" />
+          <img src={cr3} alt="" style = {{ width: 655 }}/>
           <div className="box">
-            <h1>Edit and test your game in a matter of seconds</h1>
+            <h1>Solana as an endless source of creativity</h1>
             <p>
-              Solcery Editor is web-based and does not require any external
-              building or redeployment for any changes you make to take effect
+              NFT integration, fast support and iteration, instant access to communities, community-driven development, bottom-up approach
             </p>
           </div>
         </div>
         <div className="list">
-          <img src={cr3} alt="" />
+          <img src={cr2} alt="" style = {{ width: 655 }}/>
           <div className="box">
-            <h1>Design your project the way you want</h1>
+            <h1>Your game - your rules</h1>
             <p>
-              The modular approach to content management allows you to start
-              using any combination of pre-made templates quickly or even create
-              your own
+              Self-governed, monetize the way you want, no monopolies, restrictions, sustainable non-predatory free2play, open for modding, truly on-chain
             </p>
           </div>
         </div>
