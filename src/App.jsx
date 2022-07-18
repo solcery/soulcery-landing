@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import logo from "./assets/img/logo.svg";
+import logo from "./assets/img/header/logo.webp";
 
 //Links
 import twitter from "./assets/img/header/twitter.svg";
@@ -42,7 +42,7 @@ import solana from "./assets/img/investors/Solana.webp";
 import left_side_made from "./assets/img/made_circle_left.png";
 import made_circle_rigth from "./assets/img/made_circle_rigth.png";
 
-import play_now from "./assets/img/play_now.png";
+import play_now from "./assets/img/button.png";
 import footer_logo from "./assets/img/footer_logo.svg";
 import { GameCard } from "./components/GameCard";
 
@@ -126,7 +126,9 @@ function App() {
               Create truly decentralized, open-source, community-driven games that can easily integrate any NFT collection on Solana
             </p>
             <button>
-              <img src={play_now} alt="" />
+              <a href="https://docs.solcery.xyz" target="_blank">
+                <img src={play_now} alt="" />
+              </a>
             </button>
           </div>
 
@@ -139,8 +141,8 @@ function App() {
       </div>
 
       <div className="made_width_solcery_wrapper">
-        <img src={left_side_made} alt="" className="left_side" style = {{zIndex: -100}}/>
-        <img src={made_circle_rigth} alt="" className="right_side" style = {{zIndex: -100}}/>
+        {/* <img src={left_side_made} alt="" className="left_side" style = {{zIndex: -100}}/> */}
+        {/* <img src={made_circle_rigth} alt="" className="right_side" style = {{zIndex: -100}}/> */}
         <div className="made_width_solcery common_width">
           <h1>Made with Solcery</h1>
 
@@ -327,7 +329,7 @@ function App() {
       </div>
 
       <div className="team common_width">
-        <img src={team_circle} alt="" style = {{zIndex: -100}}/>
+        {/* <img src={team_circle} alt="" style = {{zIndex: -100}}/> */}
         <h1>Team</h1>
         <p>
           Most members of our team are gamedev veterans and have worked
