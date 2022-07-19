@@ -15,7 +15,7 @@ export const Creators = () => {
       
       <div className="lists">
         <div className="list">
-          <img src={cr1} alt="" style={{ maxWidth: 655 }} />
+          <img src={cr1} alt=""  />
           <div className="box">
             <h1>From idea to players in days</h1>
             <p>
@@ -26,7 +26,7 @@ export const Creators = () => {
           </div>
         </div>
         <div className="list">
-          <img src={cr3} alt="" style={{ maxWidth: 655 }} />
+          <img src={cr3} alt=""  />
           <div className="box">
             <h1>Solana as an endless source of creativity</h1>
             <p>
@@ -35,7 +35,7 @@ export const Creators = () => {
           </div>
         </div>
         <div className="list">
-          <img src={cr2} alt="" style={{ maxWidth: 655 }} />
+          <img src={cr2} alt=""  />
           <div className="box">
             <h1>Your game - your rules</h1>
             <p>

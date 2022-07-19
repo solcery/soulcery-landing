@@ -179,23 +179,17 @@ function App() {
         <Splide
           aria-label="My Favorite Images"
           options={{
-            perPage: 3,
+            perPage: 5,
             gap: 20,
             arrows: false,
             breakpoints: {
-              900: {
+              1150: {
+                perPage: 4,
+              },
+              800: {
                 perPage: 2,
               },
-              1940: {
-                perPage: 5,
-              },
-              1610: {
-                perPage: 5,
-              },
-              1150: {
-                perPage: 3,
-              },
-              600: {
+              650: {
                 perPage: 1,
               },
             },
@@ -267,7 +261,10 @@ function App() {
 
               //reduce the number of slides per screen with lower resolution
               breakpoints: {
-                900: {
+                1000: {
+                  perPage: 3,
+                },
+                800: {
                   perPage: 2,
                 },
                 600: {

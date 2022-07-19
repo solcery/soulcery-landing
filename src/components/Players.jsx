@@ -19,7 +19,7 @@ export const Players = () => {
           <div className="box">
             <h1>True interoperability</h1>
             <p>
-
+              argarg asdfgasd gasrg awegas dgasrgawerg ar garg arg aer.arsg aerga rgasdrg.aerg arg aerga rg a.er gasdfgsnjhwrthwerth. wrtheryheryt jweryjrytjwrtjwrtjwrt.jw rtjwrt jwrt.
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export const Players = () => {
           <div className="box">
             <h1>True ownership and governance</h1>
             <p>
-              Both assets and the ecosystem itself
+            argarg asdfgasd gasrg awegas dgasrgawerg ar garg arg aer.arsg aerga rgasdrg.aerg arg aerga rg a.er gasdfgsnjhwrthwerth. wrtheryheryt jweryjrytjwrtjwrtjwrt.jw rtjwrt jwrt.
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ export const Players = () => {
           <div className="box">
             <h1>E-sports ready</h1>
             <p>
-
+            argarg asdfgasd gasrg awegas dgasrgawerg ar garg arg aer.arsg aerga rgasdrg.aerg arg aerga rg a.er gasdfgsnjhwrthwerth. wrtheryheryt jweryjrytjwrtjwrtjwrt.jw rtjwrt jwrt.
             </p>
           </div>
         </div>

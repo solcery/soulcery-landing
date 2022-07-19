@@ -667,10 +667,9 @@ main .box_wrapper p {
 .splide.is-rendered {
   z-index: 99999;
 }
-
 @media screen and (max-width: 1450px) {
   .common_width {
-    width: 95%;
+    width: 90%;
   }
   .contact_wrapper {
     width: 100%;
@@ -702,9 +701,6 @@ main .box_wrapper p {
   .Players .lists .list {
     display: block;
   }
-  .Createors .lists .list {
-    display: block;
-  }
   .Createors .lists > * > img,
   .Players .lists > * > img {
     width: 100%;
@@ -716,12 +712,16 @@ main .box_wrapper p {
   .slider_box > img {
     display: none;
   }
+  /* .slider_box {
+    grid-template-columns: 1fr 1fr;
+  } */
   .team_wrapper {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .Createors,
   .Players {
-    padding-top: 0rem;
+    /* padding: 5rem 0rem; */
+    padding-top: 5rem;
   }
   .Createors .lists > * + *,
   .Players .lists > * + * {
@@ -730,23 +730,212 @@ main .box_wrapper p {
   .made_width_solcery_wrapper > .right_side {
     display: none;
   }
-  .collection {
-    padding-bottom: 10rem;
+}
+@media screen and (max-width: 1000px) {
+  main .box_wrapper,
+  main .presentation {
+    width: 100%;
   }
-  .team {
-    padding-top: 2em;
-    padding-bottom: 6em;
+  .Createors .lists .box,
+  .Players .lists .box {
+    transform: translateY(0px);
   }
-  .investor_wrapper {
-    padding-top: 2em;
+  .Createors .lists > * + *,
+  .Players .lists > * + * {
+    margin-top: 3rem;
+  }
+  .made_width_solcery .splide__slide {
+    transform: scale(1) !important;
   }
 }
+@media screen and (max-width: 800px) {
+  .made_width_solcery {
+    padding-top: 3rem;
+  }
+  .team_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  main h1 {
+    font-size: 43px;
+  }
+  .collection .splide__pagination {
+    bottom: -5rem !important;
+  }
+  .collection .splide__pagination__page {
+    margin-top: 0px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* .slider_box {
+    grid-template-columns: 1fr;
+  } */
+  .Createors .lists,
+  .Players .lists {
+    padding: 0px;
+    padding-top: 2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .splide {
+    padding-top: 0em !important;
+    padding-bottom: 0em !important;
+  }
+  .Createors,
+  .Players {
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+  }
+  header > img {
+    width: 200px;
+    margin-right: 30px;
+  }
+  header nav img {
+    width: 40px;
+    height: 40px;
+  }
+  .inner_contact > p {
+    width: 90%;
+  }
+  .contact_wrapper button img {
+    width: 200px;
+  }
+  .splide__pagination__page {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .slider_box .splide__slide .box img {
+    width: 120px;
+  }
+  .slider_box .splide__arrow {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  .slider_box .splide__arrow svg {
+    width: 20px;
+    height: 20px;
+  }
+  .slider_box .splide.is-initialized {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 530px) {
+  /* .collection .splide__pagination,
+  .slider_box .splide__arrow {
+    display: none;
+  } */
+  .collection .splide__pagination {
+    bottom: -3rem !important;
+  }
+  .slider_box {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .team .Team img {
+    width: 150px;
+  }
 
-@media screen and (max-width: 1000px) {
-  .collection {
-    padding-bottom: 10rem;
+  .team > p,
+  .investor_wrapper > p,
+  .inner_contact > p,
+  .Createors > p,
+  .Players > p {
+    width: 100%;
+  }
+  main .box_wrapper {
+    padding: 1rem;
+  }
+  main h1 {
+    font-size: 35px;
+    margin-bottom: 5px;
+    line-height: unset;
+  }
+  .made_width_solcery > h1,
+  .collection > h1,
+  .team > h1,
+  .investor_wrapper > h1,
+  .inner_contact > h1,
+  .Createors > h1,
+  .Players > h1 {
+    font-size: 30px;
+  }
+  main p,
+  main .box_wrapper p {
+    font-size: 15px;
+    line-height: unset;
+  }
+  main button img {
+    width: 200px;
+  }
+  .inner_contact > p {
+    width: 90% !important;
+  }
+  .investor_wrapper .inves_pic {
+    grid-template-columns: 1fr;
+  }
+  .main_area {
+    height: 675px;
+  }
+  .main_area::after {
+    height: 675px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    height: 100px;
+  }
+  header > img {
+    width: 150px;
+    margin-right: 30px;
+  }
+  header nav img,
+  .inner_contact nav img {
+    width: 30px;
+    height: 30px;
+  }
+  .inner_contact > .footer_logo {
+    width: 250px;
+  }
+  .made_width_solcery > h1 {
+    margin-bottom: 3rem;
   }
   .team {
-    padding-top: 1em;
+    padding-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .team_wrapper {
+    grid-column-gap: 10px;
+    grid-row-gap: 2rem;
+  }
+  .team .Team .presentation > h1 {
+    font-size: 20px;
+  }
+  .team .Team .presentation > p {
+    font-size: 14px;
+  }
+  .team .Team img {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .collection .splide__pagination {
+    bottom: -1rem !important;
+  }
+  .made_width_solcery .splide__pagination {
+    bottom: -2rem !important;
+  }
+  .slider_box p {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .team_wrapper {
+    grid-template-columns: 1fr;
+  }
+  .team .Team img {
+    width: 90%;
   }
 }
