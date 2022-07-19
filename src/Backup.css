@@ -917,6 +917,9 @@ main .box_wrapper p {
   .team .Team img {
     width: 120px;
   }
+  .made_width_solcery .splide__pagination {
+    bottom: 1rem;
+  }
 }
 @media screen and (max-width: 400px) {
   .collection .splide__pagination {

@@ -140,7 +140,10 @@ function App() {
               gap: 20,
               arrows: false,
               breakpoints: {
-                900: {
+                1200: {
+                  gap: 0,
+                },
+                800: {
                   perPage: 1,
                 },
               },
