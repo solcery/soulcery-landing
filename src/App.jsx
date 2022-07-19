@@ -110,7 +110,7 @@ function App() {
             <h1>Game Engine</h1>
             <h3>powered by Solana</h3>
             <p>
-              Create truly decentralized, open-source, community-driven games that can easily integrate any NFT collection on Solana
+              Create truly decentralized, open-source, community-driven games that can easily integrate with any NFT collection on Solana
             </p>
             <button>
               <a href="https://docs.solcery.xyz" target="_blank">
@@ -292,7 +292,8 @@ function App() {
                 <div className="presentation">
                   <h1>Solana Season Hackathon</h1>
                   <p>
-                    asdfasdf
+                    <b>June 2021. </b>
+                    Honorable mention and a proof of concept for a fully on-chain game.
                   </p>
                 </div>
               </div>
@@ -304,7 +305,8 @@ function App() {
                 <div className="presentation">
                   <h1>Summoner</h1>
                   <p>
-                    asdfasdf
+                    <b>August 2021. </b>
+                    The very first game made with Solcery. A deckbuilding PvP game with a fully on-chain logic.
                   </p>
                 </div>
               </div>
@@ -316,7 +318,8 @@ function App() {
                 <div className="presentation">
                   <h1>Seed Round</h1>
                   <p>
-                    adfasdf
+                    <b>September 2021. </b>
+                    Funding needed to bootstrap the team secured.
                   </p>
                 </div>
               </div>
@@ -328,7 +331,8 @@ function App() {
                 <div className="presentation">
                   <h1>Ignition Hackathon</h1>
                   <p>
-                    asdfasdf
+                    <b>October 2021. </b>
+                    Honorable mention and a proof of concept for onboarding any Solana NFT into Solcery games.
                   </p>
                 </div>
               </div>
@@ -340,7 +344,8 @@ function App() {
                 <div className="presentation">
                   <h1>Solitary</h1>
                   <p>
-                    asdfasdf
+                    <b>November 2021. </b>
+                    A single-player roguelike deckbuilder that pioneered external NFT onboarding.
                   </p>
                 </div>
               </div>
@@ -352,7 +357,8 @@ function App() {
                 <div className="presentation">
                   <h1>Solcery Virtual Machine</h1>
                   <p>
-                    asdfasdf
+                    <b>December 2021. </b>
+                    An on-chain protocol meant to be the ultimate source of consensys around any game state or any game result.
                   </p>
                 </div>
               </div>
@@ -364,7 +370,8 @@ function App() {
                 <div className="presentation">
                   <h1>Sage</h1>
                   <p>
-                    asdfasdf
+                    <b>March 2022. </b>
+                    Solcery game editor itself - a zero-code engine and an easy-to-use content management system.
                   </p>
                 </div>
               </div>
@@ -376,7 +383,8 @@ function App() {
                 <div className="presentation">
                   <h1>Eclipse</h1>
                   <p>
-                    dasfsd
+                    <b>August 2022. </b>
+                    A single-player resource management strategy game with a focus on oboarding NFTs and community-driven development.
                   </p>
                 </div>
               </div>
@@ -388,19 +396,8 @@ function App() {
                 <div className="presentation">
                   <h1>Strategic Round</h1>
                   <p>
-                    dasfsd
-                  </p>
-                </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className={`box`}>
-                <img src={road2} alt="" />
-
-                <div className="presentation">
-                  <h1>SRY token launch</h1>
-                  <p>
-                    dasfsd
+                    <b>Q3 2022. </b>
+                    A round of investment to extend the team and speed up bringing our vision to life.
                   </p>
                 </div>
               </div>
@@ -412,7 +409,21 @@ function App() {
                 <div className="presentation">
                   <h1>Ratings</h1>
                   <p>
-                    dasfsd
+                    <b>Q3 2022. </b>
+                    Ratings and Leaderboards protocols to bring competitiveness and reward the best.
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>SRY token launch</h1>
+                  <p>
+                    <b>Q4 2022. </b>
+                    The launch of SRY token - the essential piece in decentralizing Solcery ecosystem.
                   </p>
                 </div>
               </div>
@@ -424,43 +435,8 @@ function App() {
                 <div className="presentation">
                   <h1>Solcery Forge</h1>
                   <p>
-                    dasfsd
-                  </p>
-                </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className={`box`}>
-                <img src={road2} alt="" />
-
-                <div className="presentation">
-                  <h1>P2P protocol</h1>
-                  <p>
-                    dasfsd
-                  </p>
-                </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className={`box`}>
-                <img src={road2} alt="" />
-
-                <div className="presentation">
-                  <h1>Matchmaking</h1>
-                  <p>
-                    dasfsd
-                  </p>
-                </div>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className={`box`}>
-                <img src={road2} alt="" />
-
-                <div className="presentation">
-                  <h1>Achievements</h1>
-                  <p>
-                    dasfsd
+                    <b>Q4 2022. </b>
+                    A protocol that handles turning any Solana NFT into an in-game asset interoperable for all Solcery games.
                   </p>
                 </div>
               </div>
@@ -472,7 +448,47 @@ function App() {
                 <div className="presentation">
                   <h1>Mobile client</h1>
                   <p>
-                    dasfsd
+                    <b>Q1 2023. </b>
+                    Solcery starts its journey with SAGA and SMSS - the mobile-native crypto stack.
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>P2P protocol</h1>
+                  <p>
+                    <b>Q1 2023. </b>
+                    A protocol for direct trustless communication between players clients essential for making our games faster and cheaper.
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Matchmaking</h1>
+                  <p>
+                    <b>Q1 2023. </b>
+                    A robust customizable protocol which games can utilize for matching their players by any property.
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Achievements</h1>
+                  <p>
+                    <b>Q2 2023. </b>
+                    A system of game-specific and ecosystem-wide achievements.
                   </p>
                 </div>
               </div>
