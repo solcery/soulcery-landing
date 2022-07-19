@@ -562,10 +562,11 @@ main .box_wrapper p {
   fill: #fff;
 }
 .slider_box .splide__arrow--prev {
-  left: -4em !important;
+  left: -6em !important;
+  
 }
 .slider_box .splide__arrow--next {
-  right: -4em !important;
+  right: -6em !important;
 }
 .slider_box .splide__arrow {
   opacity: 1 !important;
@@ -573,6 +574,7 @@ main .box_wrapper p {
   width: 70px !important;
   height: 70px !important;
   border-radius: 50%;
+  top: 38%;
 }
 .slider_box .box.active::after {
   width: 100%;
@@ -663,7 +665,7 @@ main .box_wrapper p {
 }
 @media screen and (max-width: 1450px) {
   .common_width {
-    width: 90%;
+    width: 85%;
   }
   .contact_wrapper {
     width: 100%;
