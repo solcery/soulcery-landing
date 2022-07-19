@@ -233,7 +233,7 @@ main .box_wrapper p {
   margin-bottom: 10px;
 }
 .MadeSolceryCard .presentation p {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -305,7 +305,7 @@ main .box_wrapper p {
   align-items: center;
   color: #fff;
 
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -339,7 +339,7 @@ main .box_wrapper p {
 .team > h1,
 .investor_wrapper > h1,
 .inner_contact > h1,
-.Createors > h1,
+.creators > h1,
 .Players > h1 {
   color: #fff;
   font-size: 43px;
@@ -351,9 +351,9 @@ main .box_wrapper p {
 .team > p,
 .investor_wrapper > p,
 .inner_contact > p,
-.Createors > p,
+.creators > p,
 .Players > p {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
@@ -453,14 +453,14 @@ main .box_wrapper p {
 .inner_contact nav > * + * {
   margin-left: 1rem;
 }
-.Createors,
+.creators,
 .Players {
   height: 1550px;
   /* padding: 5rem 0rem; */
   padding-top: 5rem;
   position: relative;
 }
-.Createors > img {
+.creators > img {
   top: 23rem;
   position: absolute;
   filter: brightness(50%);
@@ -472,29 +472,29 @@ main .box_wrapper p {
   filter: brightness(50%);
 }
 
-.Createors > img:first-child,
+.creators > img:first-child,
 .Players > img:first-child {
   right: 50%;
   transform: translateX(50%);
   top: 0px;
 }
-.Createors > img:first-child {
+.creators > img:first-child {
   right: 70%;
 }
-.Createors .lists,
+.creators .lists,
 .Players .lists {
   padding: 0rem 8rem;
   padding-top: 3.5rem;
 }
-.Createors .lists > *,
+.creators .lists > *,
 .Players .lists > * {
   position: relative;
 }
-.Createors .lists > * + *,
+.creators .lists > * + *,
 .Players .lists > * + * {
   margin-top: 3.5rem;
 }
-.Createors .lists .box {
+.creators .lists .box {
   position: absolute;
   background: #0e142b;
   border: 2px solid #801887;
@@ -518,7 +518,7 @@ main .box_wrapper p {
   z-index: 9999;
   width: 50%;
 }
-.Createors .lists .box > h1,
+.creators .lists .box > h1,
 .Players .lists .box > h1 {
   font-size: 26px;
   font-weight: 600;
@@ -529,9 +529,9 @@ main .box_wrapper p {
   width: 85%;
   margin-bottom: 1rem;
 }
-.Createors .lists .box > p,
+.creators .lists .box > p,
 .Players .lists .box > p {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -643,7 +643,7 @@ main .box_wrapper p {
   z-index: 22;
 }
 .slider_box h1 {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -653,7 +653,7 @@ main .box_wrapper p {
 }
 .slider_box p {
   color: #9294a0;
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -677,13 +677,13 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 1150px) {
-  .Createors > img {
+  .creators > img {
     display: none;
   }
   .Players > img {
     display: none;
   }
-  .Createors .lists .box,
+  .creators .lists .box,
   .Players .lists .box {
     position: static;
     width: 97%;
@@ -701,14 +701,14 @@ main .box_wrapper p {
   .Players .lists .list {
     display: block;
   }
-  .Createors .lists .list {
+  .creators .lists .list {
     display: block;
   }
-  .Createors .lists > * > img,
+  .creators .lists > * > img,
   .Players .lists > * > img {
     width: 100%;
   }
-  .Createors,
+  .creators,
   .Players {
     height: unset !important;
   }
@@ -718,11 +718,11 @@ main .box_wrapper p {
   .team_wrapper {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-  .Createors,
+  .creators,
   .Players {
     padding-top: 0rem;
   }
-  .Createors .lists > * + *,
+  .creators .lists > * + *,
   .Players .lists > * + * {
     margin-top: 0rem;
   }
@@ -752,6 +752,23 @@ main .box_wrapper p {
   main .presentation {
     width: 95%;
   }
+
+  .creators .lists .box,
+  .Players .lists .box
+  {
+    transform: translateY(-30%);
+  }
+
+  .creators .lists,
+  .Players .lists
+  {
+    padding-top: 2.5em;
+  }
+
+  .creators,
+  .Players {
+    margin-bottom: 2em !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -776,7 +793,7 @@ main .box_wrapper p {
   .made_width_solcery .splide__pagination {
     bottom: 2rem !important;
   }
-  .Createors .lists,
+  .creators .lists,
   .Players .lists {
     padding-top: 3rem;
     padding-left: 3rem;
@@ -791,7 +808,7 @@ main .box_wrapper p {
   /* .slider_box {
     grid-template-columns: 1fr;
   } */
-  .Createors .lists,
+  .creators .lists,
   .Players .lists {
     padding: 0rem;
     padding-top: 2rem;
@@ -822,7 +839,7 @@ main .box_wrapper p {
   .team > p,
   .investor_wrapper > p,
   .inner_contact > p,
-  .Createors > p,
+  .creators > p,
   .Players > p {
     width: 100%;
   }
@@ -839,7 +856,7 @@ main .box_wrapper p {
   .team > h1,
   .investor_wrapper > h1,
   .inner_contact > h1,
-  .Createors > h1,
+  .creators > h1,
   .Players > h1 {
     font-size: 30px;
   }
@@ -868,7 +885,7 @@ main .box_wrapper p {
     height: 675px;
   }
 
-  .Createors .lists .box,
+  .creators .lists .box,
   .Players .lists .box
   {
     transform: translateY(-20%);

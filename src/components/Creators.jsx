@@ -6,7 +6,7 @@ import cr3 from "../assets/img/creators/2.webp";
 
 export const Creators = () => {
   return (
-    <div className="Createors common_width">
+    <div className="creators common_width">
       {/* <img src={c_circle} alt="" style = {{ zIndex: -100}}/> */}
 
       <h1>For Creators</h1>
