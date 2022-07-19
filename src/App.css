@@ -69,7 +69,7 @@ header nav > * + * {
   margin-left: 0.5rem;
 }
 .main_area {
-  height: 900px;
+  height: 830px;
   display: flex;
   flex-direction: column;
 }
@@ -80,7 +80,7 @@ header nav > * + * {
   top: 0px;
   width: 100%;
   content: "";
-  background: url("./assets/img/header/banner2.png");
+  background: url("./assets/img/header/banner.png");
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
@@ -108,7 +108,7 @@ main h1 {
   line-height: 76px;
   letter-spacing: 0em;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 main h2 {
   font-size: 22px;
@@ -117,8 +117,8 @@ main h2 {
   letter-spacing: 0.03em;
   text-align: center;
   color: #2ddef3;
-  margin-bottom: 10px;
-  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 main h3 {
   font-size: 18px;
@@ -127,7 +127,7 @@ main h3 {
   letter-spacing: 0.03em;
   text-align: center;
   color: #c82df3;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 main p {
   /* font-family: Roboto; */
@@ -137,7 +137,7 @@ main p {
   letter-spacing: 0em;
   text-align: center;
   color: #c0c1c9;
-  margin-bottom: 5rem;
+  margin-bottom: 3.5rem;
 }
 main button,
 .contact_wrapper button {
@@ -173,7 +173,8 @@ main .box_wrapper p {
 
 /* made_width_solcery */
 .made_width_solcery {
-  padding: 6rem 0rem;
+  /* padding: 6rem 0rem; */
+  padding-top: 6rem;
   color: #fff;
 }
 .made_width_solcery_wrapper {
@@ -202,7 +203,7 @@ main .box_wrapper p {
   line-height: 56px;
   letter-spacing: 0em;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 /* .made_width_solcery .splide.is-initialized {
@@ -245,7 +246,9 @@ main .box_wrapper p {
 
 /* collection */
 .collection {
-  padding: 6rem 0rem;
+  /* padding: 6rem 0rem; */
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 }
 .collection > h2 {
   font-size: 22px;
@@ -318,7 +321,9 @@ main .box_wrapper p {
 
 /* Tean */
 .team {
-  padding: 10rem 0rem;
+  /* padding: 4rem 0rem; */
+  padding-top: 6rem;
+  padding-bottom: 2rem;
   position: relative;
 }
 .team > img {
@@ -393,7 +398,9 @@ main .box_wrapper p {
 
 /* investor_wrapper */
 .investor_wrapper {
-  padding: 7rem 0rem;
+  /* padding: 7rem 0rem; */
+  padding-top: 8rem;
+
 }
 .investor_wrapper > p {
   margin-bottom: 4rem;
@@ -408,7 +415,7 @@ main .box_wrapper p {
   width: 100%;
 }
 .contact_wrapper {
-  background: url("./assets/img/footer_bg.png");
+  background: url("./assets/img/footer/footer_bg.png");
   height: 977px;
   display: flex;
   background-position: center;
@@ -444,8 +451,9 @@ main .box_wrapper p {
 }
 .Createors,
 .Players {
-  height: 1650px;
-  padding: 10rem 0rem;
+  height: 1550px;
+  /* padding: 5rem 0rem; */
+  padding-top: 5rem;
   position: relative;
 }
 .Createors > img {
@@ -471,8 +479,8 @@ main .box_wrapper p {
 }
 .Createors .lists,
 .Players .lists {
-  padding: 0rem 10rem;
-  padding-top: 5rem;
+  padding: 0rem 8rem;
+  padding-top: 3.5rem;
 }
 .Createors .lists > *,
 .Players .lists > * {
@@ -480,7 +488,7 @@ main .box_wrapper p {
 }
 .Createors .lists > * + *,
 .Players .lists > * + * {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
 }
 .Createors .lists .box {
   position: absolute;
@@ -534,7 +542,7 @@ main .box_wrapper p {
 
 /* slider_box */
 .slider_box {
-  margin-top: 5rem;
+  margin-top: 0rem;
   padding: 0rem 4rem;
 }
 
@@ -544,7 +552,7 @@ main .box_wrapper p {
   align-items: center;
   text-align: center;
   position: relative;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   height: 100%;
 }
 .slider_box .box {
@@ -602,8 +610,8 @@ main .box_wrapper p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 520px;
-  width: 70%;
+  top: 380px;
+  width: 85%;
   content: "";
   z-index: -22;
 }
@@ -706,7 +714,8 @@ main .box_wrapper p {
   }
   .Createors,
   .Players {
-    padding: 5rem 0rem;
+    /* padding: 5rem 0rem; */
+    padding-top: 5rem;
   }
   .Createors .lists > * + *,
   .Players .lists > * + * {

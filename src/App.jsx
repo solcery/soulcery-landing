@@ -1,12 +1,26 @@
 import "./App.css";
 import { useState } from "react";
+import "@splidejs/react-splide/css";
+import "@splidejs/react-splide/css/skyblue";
+import "@splidejs/react-splide/css/sea-green";
+import "@splidejs/react-splide/css/core";
+import { CollectionCard } from "./components/CollectionCard";
+import { Team } from "./components/Team";
+import { Creators as Creators } from "./components/Creators";
+import { Players } from "./components/Players";
+import { GameCard } from "./components/GameCard";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+
+//Header
 import logo from "./assets/img/header/logo.webp";
+import play_now from "./assets/img/header/button.png";
 
 //Links
-import twitter from "./assets/img/header/twitter.svg";
-import github from "./assets/img/header/github.svg";
-import medium from "./assets/img/header/medium.svg";
+import notion from "./assets/img/header/notion.png";
 import discord from "./assets/img/header/discord.svg";
+import twitter from "./assets/img/header/twitter.svg";
+import medium from "./assets/img/header/medium.svg";
+import github from "./assets/img/header/github.svg";
 
 //Games
 import summoner_cover from "./assets/img/games/summoner.webp";
@@ -21,6 +35,13 @@ import bd from "./assets/img/collections/bd.webp";
 import bbd from "./assets/img/collections/bbd.webp";
 import smb from "./assets/img/collections/smb.webp";
 import solgods from "./assets/img/collections/solgods.webp";
+
+//Roadmap
+import road_map_line from "./assets/img/roadmap/roadmap_line.png";
+import road1 from "./assets/img/roadmap/road_1.svg";
+import road2 from "./assets/img/roadmap/road_2.svg";
+import road3 from "./assets/img/roadmap/road_3.svg";
+import road4 from "./assets/img/roadmap/road_4.svg";
 
 //Team
 import tjumma from "./assets/img/team/tjumma.webp";
@@ -39,47 +60,13 @@ import cultur3 from "./assets/img/investors/Cultur3.webp";
 import sino from "./assets/img/investors/Sino.webp";
 import solana from "./assets/img/investors/Solana.webp";
 
-import left_side_made from "./assets/img/made_circle_left.png";
-import made_circle_rigth from "./assets/img/made_circle_rigth.png";
+//Footer
+import footer_logo from "./assets/img/footer/footer_logo.svg";
 
-import play_now from "./assets/img/button.png";
-import footer_logo from "./assets/img/footer_logo.svg";
-import { GameCard } from "./components/GameCard";
-
-
-
-import second_eth from "./assets/img/second_eth.png";
-import third_eth from "./assets/img/third_eth.png";
-
-
-
-
-import team_circle from "./assets/img/team_circle.png";
-import road_map_line from "./assets/img/lone_line_road_map.png";
-
-import road1 from "./assets/img/road_1.svg";
-import road2 from "./assets/img/road_2.svg";
-import road3 from "./assets/img/road_3.svg";
-import road4 from "./assets/img/road_4.svg";
-
-import road_map_arrow from "./assets/img/road_map_arrow.svg";
-import road_map_arrow_right from "./assets/img/road_map_arrow_right.svg";
-
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-
-// Default theme
-import "@splidejs/react-splide/css";
-
-// or other themes
-import "@splidejs/react-splide/css/skyblue";
-import "@splidejs/react-splide/css/sea-green";
-
-// or only core styles
-import "@splidejs/react-splide/css/core";
-import { CollectionCard } from "./components/CollectionCard";
-import { Team } from "./components/Team";
-import { Creators as Creators } from "./components/Creators";
-import { Players } from "./components/Players";
+//Decor
+import team_circle from "./assets/img/decor/team_circle.png";
+import left_side_made from "./assets/img/decor/made_circle_left.png";
+import made_circle_rigth from "./assets/img/decor/made_circle_rigth.png";
 
 function App() {
   const [activeBox, setactiveBox] = useState(1);
@@ -91,7 +78,7 @@ function App() {
           <nav>
             <li>
               <a href="https://docs.solcery.xyz" target="_blank">
-                <img style={{ display: "block", width: "100%" }} src={discord} alt="" />
+                <img style={{ display: "block", width: "100%" }} src={notion} alt="" />
               </a>
             </li>
             <li>
@@ -305,8 +292,7 @@ function App() {
                 <div className="presentation">
                   <h1>Solana Season Hackathon</h1>
                   <p>
-                    A nft roadmap is a strategic planning tool used to set
-                    desired
+                    asdfasdf
                   </p>
                 </div>
               </div>
@@ -318,8 +304,175 @@ function App() {
                 <div className="presentation">
                   <h1>Summoner</h1>
                   <p>
-                    A nft roadmap is a strategic planning tool used to set
-                    desired
+                    asdfasdf
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Seed Round</h1>
+                  <p>
+                    adfasdf
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Ignition Hackathon</h1>
+                  <p>
+                    asdfasdf
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Solitary</h1>
+                  <p>
+                    asdfasdf
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Solcery Virtual Machine</h1>
+                  <p>
+                    asdfasdf
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Sage</h1>
+                  <p>
+                    asdfasdf
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Eclipse</h1>
+                  <p>
+                    dasfsd
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Strategic Round</h1>
+                  <p>
+                    dasfsd
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>SRY token launch</h1>
+                  <p>
+                    dasfsd
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Ratings</h1>
+                  <p>
+                    dasfsd
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Solcery Forge</h1>
+                  <p>
+                    dasfsd
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>P2P protocol</h1>
+                  <p>
+                    dasfsd
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Matchmaking</h1>
+                  <p>
+                    dasfsd
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Achievements</h1>
+                  <p>
+                    dasfsd
+                  </p>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className={`box`}>
+                <img src={road2} alt="" />
+
+                <div className="presentation">
+                  <h1>Mobile client</h1>
+                  <p>
+                    dasfsd
                   </p>
                 </div>
               </div>
@@ -377,6 +530,11 @@ function App() {
           <img src={footer_logo} alt="" className="footer_logo" />
 
           <nav>
+          <li>
+              <a href="#">
+                <img src={notion} alt="" />
+              </a>
+            </li>
             <li>
               <a href="#">
                 <img src={discord} alt="" />
@@ -394,7 +552,7 @@ function App() {
             </li>
             <li>
               <a href="#">
-                <img src={discord} alt="" />
+                <img src={github} alt="" />
               </a>
             </li>
           </nav>
