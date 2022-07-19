@@ -190,7 +190,7 @@ function App() {
                 perPage: 2,
               },
               650: {
-                perPage: 1,
+                perPage: 2,
               },
             },
           }}
@@ -503,8 +503,8 @@ function App() {
         </p>
 
         <div className="team_wrapper">
-          <Team img={tjumma} heading="tjumma" para="Co-founder" />
-          <Team img={teuzet} heading="teuzet" para="Co-founder" />
+          <Team img={tjumma} heading="tjumma" para="Co-founder, CEO" />
+          <Team img={teuzet} heading="teuzet" para="Co-founder, CTO" />
           <Team img={ellador} heading="ellador" para="Lead Game Designer" />
           <Team img={kurutsu} heading="kurutsu" para="Rust Developer" />
           <Team img={opensr} heading="opensr" para="Lead Unity Developer" />
