@@ -316,6 +316,9 @@ main .box_wrapper p {
   text-align: center;
   width: 100%;
 }
+.CollectionCard img {
+  border-radius: 10px;
+}
 
 /* Tean */
 .team {
