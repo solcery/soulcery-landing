@@ -1,7 +1,7 @@
 import React from "react";
 export const CollectionCard = ({ img, heading }) => {
   return (
-    <div className="MadeSolceryCard CollectionCard">
+    <div className="GameCard CollectionCard">
       <img src={img} alt=""/>
       <div className="presentation">
         <div className="bottom_area">

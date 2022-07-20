@@ -215,24 +215,24 @@ main .box_wrapper p {
   margin-left: auto;
   margin-right: auto;
 }
-.MadeSolceryCard {
+.GameCard {
   background-color: #09121e;
   border-radius: 10px;
 }
-.MadeSolceryCard .presentation {
+.GameCard .presentation {
   padding: 1.8rem;
 }
-.MadeSolceryCard > img {
+.GameCard > img {
   width: 100%;
 }
-.MadeSolceryCard .presentation h1 {
+.GameCard .presentation h1 {
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
   letter-spacing: 0em;
   margin-bottom: 10px;
 }
-.MadeSolceryCard .presentation p {
+.GameCard .presentation p {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;

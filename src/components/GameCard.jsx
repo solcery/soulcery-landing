@@ -2,7 +2,7 @@ import React from "react";
 
 export const GameCard = ({ img, heading, para }) => {
   return (
-    <div className="MadeSolceryCard">
+    <div className="GameCard">
       <img src={img} alt="" />
       <div className="presentation">
         <h1>{heading}</h1>
