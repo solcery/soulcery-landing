@@ -7,15 +7,17 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+.common_width {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 a {
   text-decoration: none;
 }
-
 .splide__pagination {
   bottom: -1rem !important;
 }
-
 .splide__pagination__page {
   height: 20px !important;
   margin-top: 4rem !important;
@@ -46,13 +48,6 @@ body {
   background-color: #000000;
   font-family: 'Montserrat', sans-serif;
 }
-
-.common_width {
-  width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 header,
 header nav {
   display: flex;
