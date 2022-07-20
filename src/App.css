@@ -993,6 +993,9 @@ main .box_wrapper p {
   .collection .splide__pagination {
     display: none;
   }
+  .CollectionCard .presentation .bottom_area h1 {
+    font-size: 16px !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -1011,6 +1014,9 @@ main .box_wrapper p {
   .collection .splide__pagination {
     display: none;
   }
+  .CollectionCard .presentation .bottom_area h1 {
+    font-size: 15px !important;
+  }
 }
 
 @media screen and (max-width: 330px) {
@@ -1023,5 +1029,8 @@ main .box_wrapper p {
   }
   .collection .splide__pagination {
     display: none;
+  }
+  .CollectionCard .presentation .bottom_area h1 {
+    font-size: 11px !important;
   }
 }
