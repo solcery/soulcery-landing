@@ -510,7 +510,7 @@ function App() {
           <Team img={teuzet} heading="teuzet" para="Co-founder, CTO" />
           <Team img={ellador} heading="ellador" para="Lead Game Designer" />
           <Team img={kurutsu} heading="kurutsu" para="Rust Developer" />
-          <Team img={opensr} heading="opensr" para="Lead Unity Developer" />
+          <Team img={opensr} heading="opensr" para="Head of Client Engineering" />
           <Team img={kungurov} heading="kungurov" para="Unity Developer" />
           <Team img={loogris} heading="loogris" para="Game Designer" />
           <Team img={irina} heading="irina" para="Sage Product Designer" />
