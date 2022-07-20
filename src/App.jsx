@@ -127,10 +127,10 @@ function App() {
         </main>
       </div>
 
-      <div className="made_width_solcery_wrapper">
+      <div className="games_wrapper">
         {/* <img src={left_side_made} alt="" className="left_side" style = {{zIndex: -100}}/> */}
         {/* <img src={made_circle_rigth} alt="" className="right_side" style = {{zIndex: -100}}/> */}
-        <div className="made_width_solcery common_width">
+        <div className="games common_width">
           <h1>Made with Solcery</h1>
 
           <Splide

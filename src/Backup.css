@@ -31,10 +31,10 @@ a {
     #e119ef 116.13%
   ) !important;
 }
-.made_width_solcery .splide__slide {
+.games .splide__slide {
   transform: scale(0.8) !important;
 }
-.made_width_solcery .splide__slide.is-visible.is-next {
+.games .splide__slide.is-visible.is-next {
   transform: scale(1) !important;
 }
 nav,
@@ -171,14 +171,14 @@ main .box_wrapper p {
   color: #adb0b4;
 }
 
-.made_width_solcery {
+.games {
   padding-top: 6rem;
   color: #fff;
 }
-.made_width_solcery_wrapper {
+.games_wrapper {
   position: relative;
 }
-.made_width_solcery_wrapper > .left_side {
+.games_wrapper > .left_side {
   content: "";
   position: absolute;
   width: 515px;
@@ -186,7 +186,7 @@ main .box_wrapper p {
   top: -500px;
   z-index: 9999;
 }
-.made_width_solcery_wrapper > .right_side {
+.games_wrapper > .right_side {
   content: "";
   position: absolute;
   width: 515px;
@@ -195,7 +195,7 @@ main .box_wrapper p {
   z-index: 999999;
   pointer-events: none;
 }
-.made_width_solcery > h1 {
+.games > h1 {
   font-size: 43px;
   font-weight: 700;
   line-height: 56px;
@@ -204,11 +204,11 @@ main .box_wrapper p {
   margin-bottom: 1.5rem;
 }
 
-/* .made_width_solcery .splide.is-initialized {
+/* .games .splide.is-initialized {
   padding-left: 0px !important;
   padding-right: 0px !important;
 } */
-.made_width_solcery .cards_wrapper {
+.games .cards_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 85%;
@@ -727,7 +727,7 @@ main .box_wrapper p {
   .Players .lists > * + * {
     margin-top: 0rem;
   }
-  .made_width_solcery_wrapper > .right_side {
+  .games_wrapper > .right_side {
     display: none;
   }
 }
@@ -744,12 +744,12 @@ main .box_wrapper p {
   .Players .lists > * + * {
     margin-top: 3rem;
   }
-  .made_width_solcery .splide__slide {
+  .games .splide__slide {
     transform: scale(1) !important;
   }
 }
 @media screen and (max-width: 800px) {
-  .made_width_solcery {
+  .games {
     padding-top: 3rem;
   }
   .team_wrapper {
@@ -850,7 +850,7 @@ main .box_wrapper p {
     margin-bottom: 5px;
     line-height: unset;
   }
-  .made_width_solcery > h1,
+  .games > h1,
   .collection > h1,
   .team > h1,
   .investor_wrapper > h1,
@@ -896,7 +896,7 @@ main .box_wrapper p {
   .inner_contact > .footer_logo {
     width: 250px;
   }
-  .made_width_solcery > h1 {
+  .games > h1 {
     margin-bottom: 3rem;
   }
   .team {
@@ -917,7 +917,7 @@ main .box_wrapper p {
   .team .Team img {
     width: 120px;
   }
-  .made_width_solcery .splide__pagination {
+  .games .splide__pagination {
     bottom: 1rem;
   }
 }
@@ -925,7 +925,7 @@ main .box_wrapper p {
   .collection .splide__pagination {
     bottom: -1rem !important;
   }
-  .made_width_solcery .splide__pagination {
+  .games .splide__pagination {
     bottom: -2rem !important;
   }
   .slider_box p {
