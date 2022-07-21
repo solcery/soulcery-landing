@@ -342,20 +342,20 @@ main .box_wrapper p {
 }
 
 /* Tean */
-.team {
+.Team {
   /* padding: 4rem 0rem; */
   padding-top: 6rem;
   padding-bottom: 2rem;
   position: relative;
 }
-.team > img {
+.Team > img {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
 }
-.team > h1,
+.Team > h1,
 .investor_wrapper > h1,
 .inner_contact > h1,
 .creators > h1,
@@ -367,7 +367,7 @@ main .box_wrapper p {
   letter-spacing: 0em;
   text-align: center;
 }
-.team > p,
+.Team > p,
 .investor_wrapper > p,
 .inner_contact > p,
 .creators > p,
@@ -384,7 +384,7 @@ main .box_wrapper p {
   margin-right: auto;
   margin-top: 1rem;
 }
-.team_wrapper {
+.Team_wrapper {
   display: grid;
   grid-template-columns:
     minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)
@@ -392,16 +392,16 @@ main .box_wrapper p {
   grid-gap: 3rem;
   margin-top: 4rem;
 }
-.team .Team {
+.Team .TeamMember {
   color: #fff;
   text-align: center;
   width: 100%;
   /* min-width: 0px; */
 }
-.team .Team img {
+.Team .TeamMember img {
   width: 100%;
 }
-.team .Team .presentation > h1 {
+.Team .TeamMember .presentation > h1 {
   font-size: 26px;
   font-weight: 600;
   line-height: 36px;
@@ -410,7 +410,7 @@ main .box_wrapper p {
   margin-top: 20px;
   margin-bottom: 5px;
 }
-.team .Team .presentation > p {
+.Team .TeamMember .presentation > p {
   /* font-family: Roboto; */
   font-size: 18px;
   font-weight: 500;
@@ -734,7 +734,7 @@ main .box_wrapper p {
   .slider_box > img {
     display: none;
   }
-  .team_wrapper {
+  .Team_wrapper {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
   .creators,
@@ -751,7 +751,7 @@ main .box_wrapper p {
   .collection {
     padding-bottom: 10rem;
   }
-  .team {
+  .Team {
     padding-top: 2em;
     padding-bottom: 6em;
   }
@@ -768,7 +768,7 @@ main .box_wrapper p {
   .collection {
     padding-bottom: 10rem;
   }
-  .team {
+  .Team {
     padding-top: 1em;
   }
   main .box_wrapper,
@@ -817,7 +817,7 @@ main .box_wrapper p {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-  .team_wrapper {
+  .Team_wrapper {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
@@ -858,7 +858,7 @@ main .box_wrapper p {
   .main_area {
     height: 875px;
   }
-  .team_wrapper {
+  .Team_wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
@@ -882,11 +882,11 @@ main .box_wrapper p {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .team .Team img {
+  .Team .TeamMember img {
     width: 150px;
   }
 
-  .team > p,
+  .Team > p,
   .investor_wrapper > p,
   .inner_contact > p,
   .creators > p,
@@ -903,7 +903,7 @@ main .box_wrapper p {
   }
   .games > h1,
   .collection > h1,
-  .team > h1,
+  .Team > h1,
   .investor_wrapper > h1,
   .inner_contact > h1,
   .creators > h1,
@@ -921,7 +921,7 @@ main .box_wrapper p {
   .inner_contact > p {
     width: 90% !important;
   }
-  .team_wrapper {
+  .Team_wrapper {
     grid-template-columns: 1fr 1fr;
   }
   .investor_wrapper .inves_pic {
@@ -967,7 +967,7 @@ main .box_wrapper p {
   .games > h1 {
     margin-bottom: 3rem;
   }
-  .team {
+  .Team {
     padding-bottom: 4rem;
   }
 
@@ -991,17 +991,17 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 440px) {
-  .team_wrapper {
+  .Team_wrapper {
     grid-column-gap: 10px;
     grid-row-gap: 2rem;
   }
-  .team .Team .presentation > h1 {
+  .Team .TeamMember .presentation > h1 {
     font-size: 20px;
   }
-  .team .Team .presentation > p {
+  .Team .TeamMember .presentation > p {
     font-size: 14px;
   }
-  .team .Team img {
+  .Team .TeamMember img {
     width: 120px;
   }
   .games .splide__pagination {

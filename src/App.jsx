@@ -9,7 +9,7 @@ import { Games } from "./components/Games";
 import { Collections } from "./components/Collections";
 import { Players } from "./components/Players";
 import { Creators } from "./components/Creators";
-import { Team } from "./components/Team";
+import { TeamMember } from "./components/TeamMember";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 //Header
@@ -379,16 +379,16 @@ function App() {
         </p>
 
         <div className="team_wrapper">
-          <Team img={tjumma} heading="tjumma" para="Co-founder, CEO" />
-          <Team img={teuzet} heading="teuzet" para="Co-founder, CTO" />
-          <Team img={ellador} heading="ellador" para="Lead Game Designer" />
-          <Team img={kurutsu} heading="kurutsu" para="Rust Developer" />
-          <Team img={opensr} heading="opensr" para="Head of Client Engineering" />
-          <Team img={kungurov} heading="kungurov" para="Unity Developer" />
-          <Team img={loogris} heading="loogris" para="Game Designer" />
-          <Team img={irina} heading="irina" para="Sage Product Designer" />
-          <Team img={merlin} heading="merlin" para="Advisor" />
-          <Team img={mari} heading="mari" para="Artist" />
+          <TeamMember img={tjumma} heading="tjumma" para="Co-founder, CEO" />
+          <TeamMember img={teuzet} heading="teuzet" para="Co-founder, CTO" />
+          <TeamMember img={ellador} heading="ellador" para="Lead Game Designer" />
+          <TeamMember img={kurutsu} heading="kurutsu" para="Rust Developer" />
+          <TeamMember img={opensr} heading="opensr" para="Head of Client Engineering" />
+          <TeamMember img={kungurov} heading="kungurov" para="Unity Developer" />
+          <TeamMember img={loogris} heading="loogris" para="Game Designer" />
+          <TeamMember img={irina} heading="irina" para="Sage Product Designer" />
+          <TeamMember img={merlin} heading="merlin" para="Advisor" />
+          <TeamMember img={mari} heading="mari" para="Artist" />
         </div>
       </div>
       <div className="investor_wrapper common_width">

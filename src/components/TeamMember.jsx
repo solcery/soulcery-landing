@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Team = ({ img, heading, para }) => {
+export const TeamMember = ({ img, heading, para }) => {
   return (
-    <div className="Team">
+    <div className="TeamMember">
       <img src={img} alt="" />
       <div className="presentation">
         <h1>{heading}</h1>
