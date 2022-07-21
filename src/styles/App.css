@@ -33,12 +33,6 @@ a {
     #e119ef 116.13%
   ) !important;
 }
-.games .splide__slide {
-  transform: scale(0.8) !important;
-}
-.games .splide__slide.is-visible.is-next {
-  transform: scale(1) !important;
-}
 nav,
 ul {
   list-style: none;
@@ -75,7 +69,7 @@ header nav > * + * {
   top: 0px;
   width: 100%;
   content: '';
-  background: url('./assets/img/header/banner.png');
+  background: url('../assets/img/header/banner.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
@@ -162,71 +156,6 @@ main .box_wrapper p {
   letter-spacing: 0em;
   text-align: center;
   color: #adb0b4;
-}
-
-.games {
-  padding-top: 6rem;
-  color: #fff;
-}
-.games_wrapper {
-  position: relative;
-}
-.games_wrapper > .left_side {
-  content: '';
-  position: absolute;
-  width: 515px;
-  left: 0px;
-  top: -500px;
-  z-index: 9999;
-}
-.games_wrapper > .right_side {
-  content: '';
-  position: absolute;
-  width: 515px;
-  right: 0px;
-  top: 100px;
-  z-index: 999999;
-  pointer-events: none;
-}
-.games > h1 {
-  font-size: 43px;
-  font-weight: 700;
-  line-height: 56px;
-  letter-spacing: 0em;
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-.games .cards_wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.GameCard {
-  background-color: #09121e;
-  border-radius: 15px;
-}
-.GameCard .presentation {
-  padding: 1.8rem;
-}
-.GameCard > img {
-  width: 100%;
-}
-.GameCard .presentation h1 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 34px;
-  letter-spacing: 0em;
-  margin-bottom: 10px;
-}
-.GameCard .presentation p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #9294a0;
 }
 .collection {
   padding-top: 4rem;
@@ -415,7 +344,7 @@ main .box_wrapper p {
   width: 100%;
 }
 .contact_wrapper {
-  background: url('./assets/img/footer/footer_bg.png');
+  background: url('../assets/img/footer/footer_bg.png');
   height: 965px;
   display: flex;
   background-position: center;
@@ -712,9 +641,6 @@ main .box_wrapper p {
   .Players .lists > * + * {
     margin-top: 0rem;
   }
-  .games_wrapper > .right_side {
-    display: none;
-  }
   .collection {
     padding-bottom: 10rem;
   }
@@ -767,9 +693,6 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 800px) {
-  .games {
-    padding-top: 5rem;
-  }
   main h1 {
     font-size: 43px;
   }
@@ -782,9 +705,6 @@ main .box_wrapper p {
   .splide {
     padding-top: 0em !important;
   }
-  .games .splide__pagination {
-    bottom: 0rem !important;
-  }
   .creators .lists,
   .Players .lists {
     padding-top: 3rem;
@@ -794,16 +714,8 @@ main .box_wrapper p {
   .Team_wrapper {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-
-  .games > h1 {
-    margin-bottom: 1.5em;
-  }
-
   .investor_wrapper .inves_pic {
     grid-gap: 1em;
-  }
-  .games .splide__slide {
-    transform: scale(1) !important;
   }
   .collection {
     padding-top: 6rem;
@@ -831,14 +743,6 @@ main .box_wrapper p {
   }
   .Team_wrapper {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .games > h1 {
-    margin-bottom: 1em;
-  }
-
-  .games .splide__pagination {
-    bottom: 1rem;
   }
   .collection .splide__pagination {
     bottom: -5rem !important;
@@ -872,7 +776,6 @@ main .box_wrapper p {
     margin-bottom: 5px;
     line-height: unset;
   }
-  .games > h1,
   .collection > h1,
   .Roadmap > h1,
   .Team > h1,
@@ -909,9 +812,6 @@ main .box_wrapper p {
   .Players .lists .box {
     transform: translateY(-20%);
   }
-  .games {
-    padding-top: 3em;
-  }
   .contact_wrapper {
     height: 800px;
   }
@@ -932,9 +832,6 @@ main .box_wrapper p {
   }
   .inner_contact > .footer_logo {
     width: 250px;
-  }
-  .games > h1 {
-    margin-bottom: 3rem;
   }
   .Roadmap {
     padding-bottom: 4rem;
@@ -973,9 +870,6 @@ main .box_wrapper p {
   .Team .TeamMember img {
     width: 120px;
   }
-  .games .splide__pagination {
-    bottom: 2rem !important;
-  }
   .collection {
     padding-top: 2rem !important;
     padding-bottom: 7rem !important;
@@ -989,9 +883,6 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 400px) {
-  .games .splide__pagination {
-    bottom: 0rem !important;
-  }
   .collection {
     padding-top: 5rem !important;
     padding-bottom: 7rem !important;

@@ -1,4 +1,6 @@
-import "./App.css";
+import "./styles/App.css";
+import "./styles/Games.css";
+
 import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/skyblue";
 import "@splidejs/react-splide/css/sea-green";

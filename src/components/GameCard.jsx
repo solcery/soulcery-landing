@@ -1,5 +1,3 @@
-import React from "react";
-
 export const GameCard = ({ img, heading, description }) => {
   return (
     <div className="GameCard">

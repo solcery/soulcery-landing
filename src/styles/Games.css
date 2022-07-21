@@ -1,0 +1,105 @@
+.Games {
+  padding-top: 6rem;
+  color: #fff;
+}
+.Games_wrapper {
+  position: relative;
+}
+.Games > h1 {
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.Games .cards_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.GameCard {
+  background-color: #09121e;
+  border-radius: 15px;
+}
+.GameCard .presentation {
+  padding: 1.8rem;
+}
+.GameCard > img {
+  width: 100%;
+}
+.GameCard .presentation h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 10px;
+}
+.GameCard .presentation p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9294a0;
+}
+.Games .splide__slide {
+  transform: scale(0.8) !important;
+}
+.Games .splide__slide.is-visible.is-next {
+  transform: scale(1) !important;
+}
+
+@media screen and (max-width: 800px) {
+  .Games {
+    padding-top: 5rem;
+  }
+  .Games .splide__pagination {
+    bottom: 0rem !important;
+  }
+  .Games > h1 {
+    margin-bottom: 1.5em;
+  }
+  .Games .splide__slide {
+    transform: scale(1) !important;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Games > h1 {
+    margin-bottom: 1em;
+  }
+
+  .Games .splide__pagination {
+    bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .Games > h1 {
+    font-size: 30px;
+  }
+  .Games {
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Games > h1 {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .Games .splide__pagination {
+    bottom: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Games .splide__pagination {
+    bottom: 0rem !important;
+  }
+}
