@@ -154,21 +154,21 @@ function App() {
               <GameCard
                 img={summoner_cover}
                 heading="Summoner"
-                para="Summoner is a deckbuilding PvP game. You will be building a deck from a constantly replenished  set of cards always available to both players and aim to defeat your opponent with them."
+                description="Summoner is a deckbuilding PvP game. You will be building a deck from a constantly replenished  set of cards always available to both players and aim to defeat your opponent with them."
               />
             </SplideSlide>
             <SplideSlide>
               <GameCard
                 img={eclipse_cover}
                 heading="Eclipse"
-                para="Eclipse is a single-player resource management strategy game about a band of individuals forced to work together in their desperate struggle to live through a magical catastrophe ravaging their world."
+                description="Eclipse is a single-player resource management strategy game about a band of individuals forced to work together in their desperate struggle to live through a magical catastrophe ravaging their world."
               />
             </SplideSlide>
             <SplideSlide>
               <GameCard
                 img={solitary_cover}
                 heading="Solitary"
-                para="Single-player roguelike deckbuilder that takes you for an adventure through a dungeon teeming with monsters and otherworldly threats."
+                description="Single-player roguelike deckbuilder that takes you for an adventure through a dungeon teeming with monsters and otherworldly threats."
               />
             </SplideSlide>
           </Splide>

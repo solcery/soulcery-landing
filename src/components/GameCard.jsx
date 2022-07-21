@@ -1,12 +1,12 @@
 import React from "react";
 
-export const GameCard = ({ img, heading, para }) => {
+export const GameCard = ({ img, heading, description }) => {
   return (
     <div className="GameCard">
       <img src={img} alt="" />
       <div className="presentation">
         <h1>{heading}</h1>
-        <p>{para}</p>
+        <p>{description}</p>
       </div>
     </div>
   );
