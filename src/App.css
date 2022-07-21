@@ -281,9 +281,11 @@ main .box_wrapper p {
   bottom: -4rem !important;
 }
 .CollectionCard .presentation {
+  padding-top: 1rem;
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
+  height: 5.5rem;
 }
 .CollectionCard .presentation .top_area {
   display: flex;
@@ -1026,5 +1028,18 @@ main .box_wrapper p {
   }
   .CollectionCard .presentation .bottom_area h1 {
     font-size: 11px !important;
+  }
+  .CollectionCard {
+    padding: 0.5rem;
+  }
+  .CollectionCard .presentation {
+    padding-top: 1rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: 4.25rem;
+  }
+  .CollectionCard .presentation h1 {
+    line-height: 1.25rem;
   }
 }
