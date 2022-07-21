@@ -962,10 +962,10 @@ main .box_wrapper p {
 
   .collection {
     padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
+    padding-bottom: 8rem !important;
   }
   .collection .splide__pagination {
-    display: none;
+    bottom: -3rem !important;
   }
 }
 
@@ -986,18 +986,15 @@ main .box_wrapper p {
   .games .splide__pagination {
     bottom: 2rem !important;
   }
-  .collection .splide__pagination {
-    bottom: 1rem !important;
-  }
   .collection {
     padding-top: 2rem !important;
-    padding-bottom: 3rem !important;
-  }
-  .collection .splide__pagination {
-    display: none;
+    padding-bottom: 7rem !important;
   }
   .CollectionCard .presentation .bottom_area h1 {
     font-size: 16px !important;
+  }
+  .collection .splide__pagination {
+    bottom: -3rem !important;
   }
 }
 
@@ -1007,15 +1004,12 @@ main .box_wrapper p {
   }
   .collection {
     padding-top: 5rem !important;
-    padding-bottom: 2rem !important;
+    padding-bottom: 7rem !important;
   }
   .slider_box p {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
-  }
-  .collection .splide__pagination {
-    display: none;
   }
   .CollectionCard .presentation .bottom_area h1 {
     font-size: 15px !important;
@@ -1029,9 +1023,6 @@ main .box_wrapper p {
   }
   .main_area {
     height: 700px;
-  }
-  .collection .splide__pagination {
-    display: none;
   }
   .CollectionCard .presentation .bottom_area h1 {
     font-size: 11px !important;
