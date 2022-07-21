@@ -119,7 +119,7 @@ function App() {
       <Players />
       <Creators />
 
-      <div className="team common_width">
+      <div className="Roadmap common_width">
         <h1>Roadmap</h1>
         <p>
           Solcery is a zero-code on-chain game engine on Solana that gives its
@@ -370,15 +370,14 @@ function App() {
         </div>
       </div>
 
-      <div className="team common_width">
-        {/* <img src={team_circle} alt="" style = {{zIndex: -100}}/> */}
+      <div className="Team common_width">
         <h1>Team</h1>
         <p>
           Most members of our team are gamedev veterans and have worked
           side by side on many projects before. We are happy to be able to put our forces together to create Solcery, mixing our knowledge and previous experience with a new vision for the future of the whole industry.
         </p>
 
-        <div className="team_wrapper">
+        <div className="Team_wrapper">
           <TeamMember img={tjumma} heading="tjumma" para="Co-founder, CEO" />
           <TeamMember img={teuzet} heading="teuzet" para="Co-founder, CTO" />
           <TeamMember img={ellador} heading="ellador" para="Lead Game Designer" />

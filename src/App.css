@@ -125,7 +125,6 @@ main h3 {
   margin-bottom: 40px;
 }
 main p {
-  /* font-family: Roboto; */
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -157,7 +156,6 @@ main .box_wrapper {
 }
 main .box_wrapper p {
   margin-bottom: 0px;
-  /* font-family: Roboto; */
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
@@ -198,11 +196,6 @@ main .box_wrapper p {
   text-align: center;
   margin-bottom: 1.5rem;
 }
-
-/* .games .splide.is-initialized {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-} */
 .games .cards_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -228,7 +221,6 @@ main .box_wrapper p {
   margin-bottom: 10px;
 }
 .GameCard .presentation p {
-  /* font-family: Roboto; */
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -236,10 +228,7 @@ main .box_wrapper p {
   text-align: left;
   color: #9294a0;
 }
-
-/* collection */
 .collection {
-  /* padding: 6rem 0rem; */
   padding-top: 4rem;
   padding-bottom: 6rem;
 }
@@ -266,19 +255,15 @@ main .box_wrapper p {
   padding-left: 0em !important;
   padding-right: 0em !important;
 }
-
-/* CollectionCard */
 .CollectionCard {
   background-color: #09121e;
   border-radius: 15px;
   padding: 1.5rem 1.5rem 1rem 1.5rem;
   width: 100%;
 }
-
 .collection .splide.is-initialized {
   padding: 0px !important;
 }
-
 .collection .splide__pagination {
   bottom: -4rem !important;
 }
@@ -303,8 +288,6 @@ main .box_wrapper p {
   display: flex;
   align-items: center;
   color: #fff;
-
-  /* font-family: Roboto; */
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -332,7 +315,6 @@ main .box_wrapper p {
   width: 100%;
 }
 .CollectionCard .presentation p {
-  /* font-family: Roboto; */
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -340,14 +322,13 @@ main .box_wrapper p {
   text-align: left;
   color: #9294a0;
 }
-
-/* Tean */
+.Roadmap,
 .Team {
-  /* padding: 4rem 0rem; */
   padding-top: 6rem;
   padding-bottom: 2rem;
   position: relative;
 }
+.Roadmap > img,
 .Team > img {
   position: absolute;
   top: 50%;
@@ -355,6 +336,7 @@ main .box_wrapper p {
   width: 100%;
   transform: translate(-50%, -50%);
 }
+.Roadmap > h1,
 .Team > h1,
 .investor_wrapper > h1,
 .inner_contact > h1,
@@ -367,12 +349,12 @@ main .box_wrapper p {
   letter-spacing: 0em;
   text-align: center;
 }
+.Roadmap > p,
 .Team > p,
 .investor_wrapper > p,
 .inner_contact > p,
 .creators > p,
 .Players > p {
-  /* font-family: Roboto; */
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
@@ -396,7 +378,6 @@ main .box_wrapper p {
   color: #fff;
   text-align: center;
   width: 100%;
-  /* min-width: 0px; */
 }
 .Team .TeamMember img {
   width: 100%;
@@ -411,7 +392,6 @@ main .box_wrapper p {
   margin-bottom: 5px;
 }
 .Team .TeamMember .presentation > p {
-  /* font-family: Roboto; */
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
@@ -419,10 +399,7 @@ main .box_wrapper p {
   text-align: center;
   color: #9294a0;
 }
-
-/* investor_wrapper */
 .investor_wrapper {
-  /* padding: 7rem 0rem; */
   padding-top: 8rem;
 }
 .investor_wrapper > p {
@@ -475,7 +452,6 @@ main .box_wrapper p {
 .creators,
 .Players {
   height: 1550px;
-  /* padding: 5rem 0rem; */
   padding-top: 5rem;
   position: relative;
 }
@@ -550,7 +526,6 @@ main .box_wrapper p {
 }
 .creators .lists .box > p,
 .Players .lists .box > p {
-  /* font-family: Roboto; */
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -562,13 +537,10 @@ main .box_wrapper p {
   display: flex;
   justify-content: flex-end;
 }
-
-/* slider_box */
 .slider_box {
   margin-top: 0rem;
   padding: 0rem 4rem;
 }
-
 .slider_box .box {
   display: flex;
   flex-direction: column;
@@ -629,7 +601,6 @@ main .box_wrapper p {
   background: linear-gradient(90deg, #24e7f2 0%, #e119ef 100%);
   content: '';
 }
-
 .slider_box > img {
   position: absolute;
   left: 50%;
@@ -639,7 +610,6 @@ main .box_wrapper p {
   content: '';
   z-index: -22;
 }
-
 .slider_box .arrows_wrapper {
   position: absolute;
   justify-content: space-between;
@@ -651,7 +621,6 @@ main .box_wrapper p {
   width: 100%;
   z-index: 9999;
 }
-
 .slider_box .arrows_wrapper button {
   background: transparent;
   border: none;
@@ -662,7 +631,6 @@ main .box_wrapper p {
   z-index: 22;
 }
 .slider_box h1 {
-  /* font-family: Roboto; */
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -672,7 +640,6 @@ main .box_wrapper p {
 }
 .slider_box p {
   color: #9294a0;
-  /* font-family: Roboto; */
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -751,6 +718,10 @@ main .box_wrapper p {
   .collection {
     padding-bottom: 10rem;
   }
+  .Roadmap {
+    padding-top: 2em;
+    padding-bottom: 6em;
+  }
   .Team {
     padding-top: 2em;
     padding-bottom: 6em;
@@ -767,6 +738,9 @@ main .box_wrapper p {
 @media screen and (max-width: 1000px) {
   .collection {
     padding-bottom: 10rem;
+  }
+  .Roadmap {
+    padding-top: 1em;
   }
   .Team {
     padding-top: 1em;
@@ -837,9 +811,6 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 700px) {
-  /* .slider_box {
-    grid-template-columns: 1fr;
-  } */
   .creators .lists,
   .Players .lists {
     padding: 0rem;
@@ -885,7 +856,7 @@ main .box_wrapper p {
   .Team .TeamMember img {
     width: 150px;
   }
-
+  .Roadmap > p,
   .Team > p,
   .investor_wrapper > p,
   .inner_contact > p,
@@ -903,6 +874,7 @@ main .box_wrapper p {
   }
   .games > h1,
   .collection > h1,
+  .Roadmap > h1,
   .Team > h1,
   .investor_wrapper > h1,
   .inner_contact > h1,
@@ -933,16 +905,13 @@ main .box_wrapper p {
   .main_area::after {
     height: 675px;
   }
-
   .creators .lists .box,
   .Players .lists .box {
     transform: translateY(-20%);
   }
-
   .games {
     padding-top: 3em;
   }
-
   .contact_wrapper {
     height: 800px;
   }
@@ -967,20 +936,20 @@ main .box_wrapper p {
   .games > h1 {
     margin-bottom: 3rem;
   }
+  .Roadmap {
+    padding-bottom: 4rem;
+  }
   .Team {
     padding-bottom: 4rem;
   }
-
   .splide__pagination__page {
     width: 15px !important;
     height: 15px !important;
     margin: 2px !important;
   }
-
   .main_area::after {
-  height: 750px;
+    height: 750px;
   }
-
   .collection {
     padding-top: 4rem !important;
     padding-bottom: 8rem !important;
@@ -1038,8 +1007,8 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 330px) {
-  header nav img, .inner_contact nav img
-  {
+  header nav img,
+  .inner_contact nav img {
     height: unset !important;
   }
   .main_area {
