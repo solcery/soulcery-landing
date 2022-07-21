@@ -269,6 +269,8 @@ main .box_wrapper p {
 
 /* CollectionCard */
 .CollectionCard {
+  background-color: #09121e;
+  border-radius: 15px;
   padding: 1.5rem 1.5rem 1rem 1.5rem;
   width: 100%;
 }
@@ -309,6 +311,13 @@ main .box_wrapper p {
   letter-spacing: 0em;
   text-align: left;
 }
+.CollectionCard .presentation h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 10px;
+}
 .CollectionCard .presentation .bottom_area h1 {
   background: -webkit-linear-gradient(#30e6ff, #ea45fc);
   -webkit-background-clip: text;
@@ -320,6 +329,16 @@ main .box_wrapper p {
 }
 .CollectionCard img {
   border-radius: 10px;
+  width: 100%;
+}
+.CollectionCard .presentation p {
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9294a0;
 }
 
 /* Tean */
