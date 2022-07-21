@@ -243,8 +243,8 @@ function App() {
         </Splide>
       </div>
 
-      <Creators />
       <Players />
+      <Creators />
 
       <div className="team common_width">
         <h1>Roadmap</h1>
