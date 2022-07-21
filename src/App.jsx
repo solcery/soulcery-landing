@@ -4,11 +4,12 @@ import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/skyblue";
 import "@splidejs/react-splide/css/sea-green";
 import "@splidejs/react-splide/css/core";
-import { CollectionCard } from "./components/CollectionCard";
-import { Team } from "./components/Team";
-import { Creators as Creators } from "./components/Creators";
+
+import { Games } from "./components/Games";
+import { Collections } from "./components/Collections";
 import { Players } from "./components/Players";
-import { GameCard } from "./components/GameCard";
+import { Creators } from "./components/Creators";
+import { Team } from "./components/Team";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 //Header
@@ -21,20 +22,6 @@ import discord from "./assets/img/header/discord.svg";
 import twitter from "./assets/img/header/twitter.svg";
 import medium from "./assets/img/header/medium.svg";
 import github from "./assets/img/header/github.svg";
-
-//Games
-import summoner_cover from "./assets/img/games/summoner.webp";
-import eclipse_cover from "./assets/img/games/eclipse.webp";
-import solitary_cover from "./assets/img/games/solitary.webp";
-
-//Collections
-import okay_bears from "./assets/img/collections/okay_bears.webp";
-import degods from "./assets/img/collections/degods.webp";
-import daa from "./assets/img/collections/daa.webp";
-import bd from "./assets/img/collections/bd.webp";
-import bbd from "./assets/img/collections/bbd.webp";
-import smb from "./assets/img/collections/smb.webp";
-import solgods from "./assets/img/collections/solgods.webp";
 
 //Roadmap
 import road_map_line from "./assets/img/roadmap/roadmap_line.png";
@@ -127,122 +114,8 @@ function App() {
         </main>
       </div>
 
-      <div className="games_wrapper">
-        {/* <img src={left_side_made} alt="" className="left_side" style = {{zIndex: -100}}/> */}
-        {/* <img src={made_circle_rigth} alt="" className="right_side" style = {{zIndex: -100}}/> */}
-        <div className="games common_width">
-          <h1>Made with Solcery</h1>
-
-          <Splide
-            aria-label="My Favorite Images"
-            options={{
-              perPage: 3,
-              gap: 20,
-              arrows: false,
-              breakpoints: {
-                1200: {
-                  gap: 0,
-                },
-                800: {
-                  perPage: 1,
-                },
-              },
-              // speed: 1000,
-            }}
-          >
-            <SplideSlide>
-              <GameCard
-                img={summoner_cover}
-                heading="Summoner"
-                description="Summoner is a deckbuilding PvP game. You will be building a deck from a constantly replenished  set of cards always available to both players and aim to defeat your opponent with them."
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <GameCard
-                img={eclipse_cover}
-                heading="Eclipse"
-                description="Eclipse is a single-player resource management strategy game about a band of individuals forced to work together in their desperate struggle to live through a magical catastrophe ravaging their world."
-              />
-            </SplideSlide>
-            <SplideSlide>
-              <GameCard
-                img={solitary_cover}
-                heading="Solitary"
-                description="Single-player roguelike deckbuilder that takes you for an adventure through a dungeon teeming with monsters and otherworldly threats."
-              />
-            </SplideSlide>
-          </Splide>
-        </div>
-      </div>
-
-      <div className="collection common_width">
-        <h1>Collections</h1>
-        <h2>Supported</h2>
-
-        <Splide
-          aria-label="My Favorite Images"
-          options={{
-            perPage: 5,
-            gap: 20,
-            arrows: false,
-            breakpoints: {
-              1150: {
-                perPage: 4,
-              },
-              800: {
-                perPage: 2,
-              },
-              650: {
-                perPage: 2,
-              },
-            },
-          }}
-        >
-          <SplideSlide>
-            <CollectionCard
-              img={okay_bears}
-              heading="Okay Bears"
-            />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard
-              img={degods}
-              heading="DeGods"
-            />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard
-              img={daa}
-              heading="Degenerate Ape Academy"
-            />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard
-              img={bd}
-              heading="Boryoku Dragons"
-            />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard
-              img={bbd}
-              heading="Boryoku Baby Dragons"
-            />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard
-              img={smb}
-              heading="Solana Monkey Business"
-            />
-          </SplideSlide>
-          <SplideSlide>
-            <CollectionCard
-              img={solgods}
-              heading="SOLgods"
-            />
-          </SplideSlide>
-        </Splide>
-      </div>
-
+      <Games />
+      <Collections />
       <Players />
       <Creators />
 
