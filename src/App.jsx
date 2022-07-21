@@ -1,5 +1,4 @@
 import "./App.css";
-import { useState } from "react";
 import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/skyblue";
 import "@splidejs/react-splide/css/sea-green";
@@ -10,8 +9,7 @@ import { Collections } from "./components/Collections";
 import { Players } from "./components/Players";
 import { Creators } from "./components/Creators";
 import { Roadmap } from "./components/Roadmap";
-import { TeamMember } from "./components/TeamMember";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Team } from "./components/Team";
 
 //Header
 import logo from "./assets/img/header/logo.webp";
@@ -24,18 +22,6 @@ import twitter from "./assets/img/header/twitter.svg";
 import medium from "./assets/img/header/medium.svg";
 import github from "./assets/img/header/github.svg";
 
-//Team
-import tjumma from "./assets/img/team/tjumma.webp";
-import teuzet from "./assets/img/team/teuzet.webp";
-import ellador from "./assets/img/team/ellador.webp";
-import kurutsu from "./assets/img/team/kurutsu.webp";
-import opensr from "./assets/img/team/opensr.webp";
-import kungurov from "./assets/img/team/kungurov.webp";
-import loogris from "./assets/img/team/loogris.webp";
-import irina from "./assets/img/team/irina.webp";
-import merlin from "./assets/img/team/merlin.webp";
-import mari from "./assets/img/team/mari.webp";
-
 //Investors
 import cultur3 from "./assets/img/investors/Cultur3.webp";
 import sino from "./assets/img/investors/Sino.webp";
@@ -44,13 +30,7 @@ import solana from "./assets/img/investors/Solana.webp";
 //Footer
 import footer_logo from "./assets/img/footer/footer_logo.svg";
 
-//Decor
-import team_circle from "./assets/img/decor/team_circle.png";
-import left_side_made from "./assets/img/decor/made_circle_left.png";
-import made_circle_rigth from "./assets/img/decor/made_circle_rigth.png";
-
 function App() {
-  const [activeBox, setactiveBox] = useState(1);
   return (
     <div className="App">
       <div className="main_area">
@@ -113,27 +93,8 @@ function App() {
       <Players />
       <Creators />
       <Roadmap />
+      <Team />
 
-      <div className="Team common_width">
-        <h1>Team</h1>
-        <p>
-          Most members of our team are gamedev veterans and have worked
-          side by side on many projects before. We are happy to be able to put our forces together to create Solcery, mixing our knowledge and previous experience with a new vision for the future of the whole industry.
-        </p>
-
-        <div className="Team_wrapper">
-          <TeamMember img={tjumma} heading="tjumma" para="Co-founder, CEO" />
-          <TeamMember img={teuzet} heading="teuzet" para="Co-founder, CTO" />
-          <TeamMember img={ellador} heading="ellador" para="Lead Game Designer" />
-          <TeamMember img={kurutsu} heading="kurutsu" para="Rust Developer" />
-          <TeamMember img={opensr} heading="opensr" para="Head of Client Engineering" />
-          <TeamMember img={kungurov} heading="kungurov" para="Unity Developer" />
-          <TeamMember img={loogris} heading="loogris" para="Game Designer" />
-          <TeamMember img={irina} heading="irina" para="Sage Product Designer" />
-          <TeamMember img={merlin} heading="merlin" para="Advisor" />
-          <TeamMember img={mari} heading="mari" para="Artist" />
-        </div>
-      </div>
       <div className="investor_wrapper common_width">
         <h1>Investors</h1>
         <p>

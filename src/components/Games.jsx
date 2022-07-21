@@ -1,9 +1,9 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { GameCard } from "./GameCard";
 
-import summoner_cover from "../assets/img/games/summoner.webp";
-import eclipse_cover from "../assets/img/games/eclipse.webp";
-import solitary_cover from "../assets/img/games/solitary.webp";
+import summoner from "../assets/img/games/summoner.webp";
+import eclipse from "../assets/img/games/eclipse.webp";
+import solitary from "../assets/img/games/solitary.webp";
 
 export const Games = () => {
     return (
@@ -12,7 +12,6 @@ export const Games = () => {
                 <h1>Made with Solcery</h1>
 
                 <Splide
-                    aria-label="My Favorite Images"
                     options={{
                         perPage: 3,
                         gap: 20,
@@ -29,21 +28,21 @@ export const Games = () => {
                 >
                     <SplideSlide>
                         <GameCard
-                            img={summoner_cover}
+                            img={summoner}
                             heading="Summoner"
                             description="Summoner is a deckbuilding PvP game. You will be building a deck from a constantly replenished  set of cards always available to both players and aim to defeat your opponent with them."
                         />
                     </SplideSlide>
                     <SplideSlide>
                         <GameCard
-                            img={eclipse_cover}
+                            img={eclipse}
                             heading="Eclipse"
                             description="Eclipse is a single-player resource management strategy game about a band of individuals forced to work together in their desperate struggle to live through a magical catastrophe ravaging their world."
                         />
                     </SplideSlide>
                     <SplideSlide>
                         <GameCard
-                            img={solitary_cover}
+                            img={solitary}
                             heading="Solitary"
                             description="Single-player roguelike deckbuilder that takes you for an adventure through a dungeon teeming with monsters and otherworldly threats."
                         />

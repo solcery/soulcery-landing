@@ -13,10 +13,9 @@ export const Collections = () => {
     return (
         <div className="collection common_width">
             <h1>Collections</h1>
-            <h2>Supported</h2>
+            <h2>supported</h2>
 
             <Splide
-                aria-label="My Favorite Images"
                 options={{
                     perPage: 5,
                     gap: 20,

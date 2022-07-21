@@ -17,12 +17,9 @@ export const Roadmap = () => {
                 <img src={road_map_line} alt="" />
 
                 <Splide
-                    aria-label="My Favorite Images"
                     options={{
                         perPage: 4,
                         pagination: true,
-
-                        //reduce the number of slides per screen with lower resolution
                         breakpoints: {
                             1000: {
                                 perPage: 3,
@@ -34,18 +31,10 @@ export const Roadmap = () => {
                                 perPage: 1,
                             },
                         },
-                    }}
-                >
+                    }}>
                     <SplideSlide
                         onClick={(e) => window.open('https://solana.com/news/announcing-winners-of-the-solana-season-hackathon', '_blank', 'noopener,noreferrer')}
-                    // onClick={(e) => {
-                    //   document
-                    //     .querySelector(".box.active")
-                    //     .classList.remove("active");
-                    //   e.target.querySelector(".box").classList.add("active");
-                    // }}
                     >
-                        {/* <div className={`box active`}> */}
                         <div className={`box`}>
                             <img src={roadmap1} alt="" />
 
