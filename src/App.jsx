@@ -17,11 +17,11 @@ import logo from "./assets/img/header/logo.webp";
 import header_button from "./assets/img/header/header_button.png";
 
 //Links
-import notion from "./assets/img/header/notion.png";
-import discord from "./assets/img/header/discord.svg";
-import twitter from "./assets/img/header/twitter.svg";
-import medium from "./assets/img/header/medium.svg";
-import github from "./assets/img/header/github.svg";
+import notion from "./assets/img/links/notion.png";
+import discord from "./assets/img/links/discord.svg";
+import twitter from "./assets/img/links/twitter.svg";
+import medium from "./assets/img/links/medium.svg";
+import github from "./assets/img/links/github.svg";
 
 //Investors
 import cultur3 from "./assets/img/investors/Cultur3.webp";
@@ -110,7 +110,7 @@ function App() {
         </div>
       </div>
 
-      <div className="investor_wrapper contact_wrapper common_width">
+      <div className="contact_wrapper common_width">
         <div className="inner_contact">
           <h1>Join us</h1>
           <p>

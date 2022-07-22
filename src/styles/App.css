@@ -399,6 +399,7 @@ main .box_wrapper p {
   width: 100%;
 }
 .contact_wrapper {
+  padding-top: 8rem;
   background: url('../assets/img/footer/footer_bg.png');
   height: 965px;
   display: flex;
@@ -713,6 +714,9 @@ main .box_wrapper p {
 
   .slider_box .box {
     padding-bottom: 0em;
+  }
+  .contact_wrapper {
+    padding-top: 2em;
   }
 }
 
