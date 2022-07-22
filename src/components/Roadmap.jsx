@@ -9,7 +9,7 @@ export const Roadmap = () => {
         <div className="Roadmap common_width">
             <h1>Roadmap</h1>
             <p>
-                The real treasure is the games we made along the way.
+                The real treasure is the games we made along the way
             </p>
 
             <div className="slider_box">

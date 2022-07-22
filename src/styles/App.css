@@ -415,15 +415,15 @@ main .box_wrapper p {
   justify-content: center;
 }
 .inner_contact > p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 4rem;
   margin-top: 2rem;
 }
 .inner_contact > .footer_logo {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  border-bottom: 1px dashed #dedfe4;
-  margin-top: 5rem;
+  border-bottom: 1px solid #dedfe478;
+  margin-top: 4rem;
 }
 .inner_contact nav {
   display: flex;

@@ -14,7 +14,7 @@ import { Team } from "./components/Team";
 
 //Header
 import logo from "./assets/img/header/logo.webp";
-import play_now from "./assets/img/header/button.png";
+import header_button from "./assets/img/header/header_button.png";
 
 //Links
 import notion from "./assets/img/header/notion.png";
@@ -29,7 +29,8 @@ import sino from "./assets/img/investors/Sino.webp";
 import solana from "./assets/img/investors/Solana.webp";
 
 //Footer
-import footer_logo from "./assets/img/footer/footer_logo.svg";
+import footer_logo from "./assets/img/footer/footer_logo.png";
+import footer_button from "./assets/img/footer/footer_button.png";
 
 function App() {
   return (
@@ -76,7 +77,7 @@ function App() {
             </p>
             <button>
               <a href="https://docs.solcery.xyz" target="_blank">
-                <img src={play_now} alt="" />
+                <img src={header_button} alt="" />
               </a>
             </button>
           </div>
@@ -111,15 +112,13 @@ function App() {
 
       <div className="investor_wrapper contact_wrapper common_width">
         <div className="inner_contact">
-          <h1>Contact Us</h1>
+          <h1>Join us</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna enim
-            nibh scelerisque quis. Quam phasellus sit quam sagittis, ut. Aliquet
-            dolor etiam fames
+            We are always looking for talents and game enthusiasts. Wether you want to develop Solcery with us, make cool games, propose an improvement or just share a story, shoot us a message!
           </p>
 
           <button>
-            <img src={play_now} alt="" />
+            <img src={footer_button} alt="" />
           </button>
           <img src={footer_logo} alt="" className="footer_logo" />
 
