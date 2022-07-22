@@ -207,7 +207,7 @@ main .box_wrapper p {
   color: #9294a0;
 }
 .Games .splide__slide {
-  transform: scale(0.8) !important;
+  transform: scale(0.9) !important;
 }
 .Games .splide__slide.is-visible.is-next {
   transform: scale(1) !important;
@@ -940,8 +940,37 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 440px) {
+  .GameCard .presentation p
+  {
+    font-size: 14 px;
+    line-height: 24px;
+  }
+  .creators .lists .box > p, .Players .lists .box > p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.creators .lists .box > h1, .Players .lists .box > h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.Players .lists .box {
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+.creators .lists .box,
+.Players .lists .box {
+  transform: translateY(-15%);
+}
+.creators .lists, .Players .lists {
+  padding: 0rem;
+  padding-top: 1rem;
+}
+  .GameCard .presentation {
+    padding: 1.5rem;
+  }
   .Games .splide__pagination {
-    bottom: 2rem !important;
+    bottom:1rem !important;
   }
   .Team_wrapper {
     grid-column-gap: 10px;
@@ -972,6 +1001,11 @@ main .box_wrapper p {
   .Games .splide__pagination {
     bottom: 0rem !important;
   }
+  .GameCard .presentation p
+  {
+    font-size: 12px;
+    line-height: 18px;
+  }
   .collection {
     padding-top: 5rem !important;
     padding-bottom: 7rem !important;
@@ -993,6 +1027,11 @@ main .box_wrapper p {
   }
   .main_area {
     height: 700px;
+  }
+  .GameCard .presentation p
+  {
+    font-size: 12px;
+    line-height: 18px;
   }
   .CollectionCard .presentation .bottom_area h1 {
     font-size: 11px !important;

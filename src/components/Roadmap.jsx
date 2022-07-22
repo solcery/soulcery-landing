@@ -27,7 +27,7 @@ export const Roadmap = () => {
                             800: {
                                 perPage: 2,
                             },
-                            600: {
+                            530: {
                                 perPage: 1,
                             },
                         },
