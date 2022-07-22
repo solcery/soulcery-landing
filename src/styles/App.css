@@ -129,7 +129,7 @@ main p {
   margin-bottom: 3.5rem;
 }
 main button,
-.contact_wrapper button {
+.Contacts_wrapper button {
   background: transparent;
   border: none;
   outline: none;
@@ -323,7 +323,7 @@ main .box_wrapper p {
 .Roadmap > h1,
 .Team > h1,
 .investor_wrapper > h1,
-.inner_contact > h1,
+.Contacts > h1,
 .creators > h1,
 .Players > h1 {
   color: #fff;
@@ -336,7 +336,7 @@ main .box_wrapper p {
 .Roadmap > p,
 .Team > p,
 .investor_wrapper > p,
-.inner_contact > p,
+.Contacts > p,
 .creators > p,
 .Players > p {
   font-size: 18px;
@@ -398,7 +398,7 @@ main .box_wrapper p {
 .investor_wrapper .inves_pic img {
   width: 100%;
 }
-.contact_wrapper {
+.Contacts_wrapper {
   padding-top: 8rem;
   background: url('../assets/img/footer/footer_bg.png');
   height: 965px;
@@ -408,30 +408,30 @@ main .box_wrapper p {
   align-items: center;
   justify-content: center;
 }
-.inner_contact {
+.Contacts {
   display: flex;
   flex-direction: column;
 
   align-items: center;
   justify-content: center;
 }
-.inner_contact > p {
+.Contacts > p {
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
-.inner_contact > .footer_logo {
+.Contacts > .footer_logo {
   padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
   border-bottom: 1px solid #dedfe478;
   margin-top: 4rem;
 }
-.inner_contact nav {
+.Contacts nav {
   display: flex;
   align-items: center;
   margin-top: 2rem;
 }
-.inner_contact nav > * + * {
+.Contacts nav > * + * {
   margin-left: 1rem;
 }
 .creators,
@@ -642,7 +642,7 @@ main .box_wrapper p {
   .common_width {
     width: 95%;
   }
-  .contact_wrapper {
+  .Contacts_wrapper {
     width: 100%;
   }
 }
@@ -715,7 +715,7 @@ main .box_wrapper p {
   .slider_box .box {
     padding-bottom: 0em;
   }
-  .contact_wrapper {
+  .Contacts_wrapper {
     padding-top: 2em;
   }
 }
@@ -847,7 +847,7 @@ main .box_wrapper p {
   .Roadmap > p,
   .Team > p,
   .investor_wrapper > p,
-  .inner_contact > p,
+  .Contacts > p,
   .creators > p,
   .Players > p {
     width: 100%;
@@ -864,7 +864,7 @@ main .box_wrapper p {
   .Roadmap > h1,
   .Team > h1,
   .investor_wrapper > h1,
-  .inner_contact > h1,
+  .Contacts > h1,
   .creators > h1,
   .Players > h1 {
     font-size: 30px;
@@ -877,7 +877,7 @@ main .box_wrapper p {
   main button img {
     width: 200px;
   }
-  .inner_contact > p {
+  .Contacts > p {
     width: 90% !important;
   }
   .Team_wrapper {
@@ -896,7 +896,7 @@ main .box_wrapper p {
   .Players .lists .box {
     transform: translateY(-20%);
   }
-  .contact_wrapper {
+  .Contacts_wrapper {
     height: 800px;
   }
   .splide__pagination__page {
@@ -915,14 +915,14 @@ main .box_wrapper p {
     margin-right: 30px;
   }
   header nav img,
-  .inner_contact nav img {
+  .Contacts nav img {
     width: 30px;
     height: 30px;
   }
   .Games > h1 {
     margin-bottom: 3rem;
   }
-  .inner_contact > .footer_logo {
+  .Contacts > .footer_logo {
     width: 250px;
   }
   .Roadmap {
@@ -1026,7 +1026,7 @@ main .box_wrapper p {
 
 @media screen and (max-width: 330px) {
   header nav img,
-  .inner_contact nav img {
+  .Contacts nav img {
     height: unset !important;
   }
   .main_area {

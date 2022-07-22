@@ -11,6 +11,7 @@ import { Players } from "./components/Players";
 import { Creators } from "./components/Creators";
 import { Roadmap } from "./components/Roadmap";
 import { Team } from "./components/Team";
+import { Contacts } from "./components/Contacts";
 
 //Header
 import logo from "./assets/img/header/logo.webp";
@@ -27,10 +28,6 @@ import github from "./assets/img/links/github.svg";
 import cultur3 from "./assets/img/investors/Cultur3.webp";
 import sino from "./assets/img/investors/Sino.webp";
 import solana from "./assets/img/investors/Solana.webp";
-
-//Footer
-import footer_logo from "./assets/img/footer/footer_logo.png";
-import footer_button from "./assets/img/footer/footer_button.png";
 
 function App() {
   return (
@@ -110,47 +107,7 @@ function App() {
         </div>
       </div>
 
-      <div className="contact_wrapper common_width">
-        <div className="inner_contact">
-          <h1>Join us</h1>
-          <p>
-            We are always looking for talents and game enthusiasts. Wether you want to develop Solcery with us, make cool games, propose an improvement or just share a story, shoot us a message!
-          </p>
-
-          <button>
-            <img src={footer_button} alt="" />
-          </button>
-          <img src={footer_logo} alt="" className="footer_logo" />
-
-          <nav>
-            <li>
-              <a href="#">
-                <img src={notion} alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src={discord} alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src={twitter} alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src={medium} alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src={github} alt="" />
-              </a>
-            </li>
-          </nav>
-        </div>
-      </div>
+      <Contacts />
     </div>
   );
 }
