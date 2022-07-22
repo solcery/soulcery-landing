@@ -19,6 +19,7 @@ a {
   bottom: -1rem !important;
 }
 .splide__pagination__page {
+  margin: 0px 5px !important;
   height: 20px !important;
   margin-top: 4rem !important;
   border-radius: 50% !important;
@@ -156,6 +157,60 @@ main .box_wrapper p {
   letter-spacing: 0em;
   text-align: center;
   color: #adb0b4;
+}
+
+.Games {
+  padding-top: 6rem;
+  color: #fff;
+}
+.Games_wrapper {
+  position: relative;
+}
+.Games > h1 {
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.Games .cards_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.GameCard {
+  background-color: #09121e;
+  border-radius: 15px;
+}
+.GameCard .presentation {
+  padding: 1.8rem;
+}
+.GameCard > img {
+  width: 100%;
+}
+.GameCard .presentation h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-bottom: 10px;
+}
+.GameCard .presentation p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9294a0;
+}
+.Games .splide__slide {
+  transform: scale(0.8) !important;
+}
+.Games .splide__slide.is-visible.is-next {
+  transform: scale(1) !important;
 }
 .collection {
   padding-top: 4rem;
@@ -696,6 +751,18 @@ main .box_wrapper p {
   main h1 {
     font-size: 43px;
   }
+  .Games {
+    padding-top: 5rem;
+  }
+  .Games .splide__pagination {
+    bottom: 0rem !important;
+  }
+  .Games > h1 {
+    margin-bottom: 1.5em;
+  }
+  .Games .splide__slide {
+    transform: scale(1) !important;
+  }
   .collection .splide__pagination {
     bottom: -5rem !important;
   }
@@ -741,6 +808,13 @@ main .box_wrapper p {
   .main_area {
     height: 875px;
   }
+  .Games > h1 {
+    margin-bottom: 1em;
+  }
+
+  .Games .splide__pagination {
+    bottom: 1rem;
+  }
   .Team_wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -750,6 +824,12 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 530px) {
+  .Games > h1 {
+    font-size: 30px;
+  }
+  .Games {
+    padding-top: 3em;
+  }
   .collection .splide__pagination {
     bottom: -5rem !important;
   }
@@ -815,6 +895,11 @@ main .box_wrapper p {
   .contact_wrapper {
     height: 800px;
   }
+  .splide__pagination__page {
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0px 2px !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -830,6 +915,9 @@ main .box_wrapper p {
     width: 30px;
     height: 30px;
   }
+  .Games > h1 {
+    margin-bottom: 3rem;
+  }
   .inner_contact > .footer_logo {
     width: 250px;
   }
@@ -838,11 +926,6 @@ main .box_wrapper p {
   }
   .Team {
     padding-bottom: 4rem;
-  }
-  .splide__pagination__page {
-    width: 15px !important;
-    height: 15px !important;
-    margin: 2px !important;
   }
   .main_area::after {
     height: 750px;
@@ -857,6 +940,9 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 440px) {
+  .Games .splide__pagination {
+    bottom: 2rem !important;
+  }
   .Team_wrapper {
     grid-column-gap: 10px;
     grid-row-gap: 2rem;
@@ -883,6 +969,9 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 400px) {
+  .Games .splide__pagination {
+    bottom: 0rem !important;
+  }
   .collection {
     padding-top: 5rem !important;
     padding-bottom: 7rem !important;
@@ -920,5 +1009,10 @@ main .box_wrapper p {
   }
   .CollectionCard .presentation h1 {
     line-height: 1.25rem;
+  }
+  .splide__pagination__page {
+    width: 13px !important;
+    height: 13px !important;
+    margin: 0px 1px !important;
   }
 }
