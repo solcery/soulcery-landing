@@ -9,8 +9,7 @@ export const Roadmap = () => {
         <div className="Roadmap common_width">
             <h1>Roadmap</h1>
             <p>
-                Solcery is a zero-code on-chain game engine on Solana that gives its
-                users a quick and easy way to create blockchain game experiences
+                The real treasure is the games we made along the way.
             </p>
 
             <div className="slider_box">

@@ -6,23 +6,23 @@ export const Players = () => {
   return (
     <div className="Players common_width">
       <h1>For Players</h1>
-      <p>These games were made to showcase what Solcery is capable of</p>
+      <p>Dive into the new era of fun, game governance and game asset ownership</p>
       <div className="lists">
         <div className="list">
           <img src={players1} alt="" />
           <div className="box">
             <h1>True interoperability</h1>
             <p>
-              argarg asdfgasd gasrg awegas dgasrgawerg ar garg arg aer.arsg aerga rgasdrg.aerg arg aerga rg a.er gasdfgsnjhwrthwerth. wrtheryheryt jweryjrytjwrtjwrtjwrt.jw rtjwrt jwrt.
+              All the assets the players own can be used as in-game entities across any Solcery games, acquiring game mechanics unique to each of them. Your favorite NFT will become a rare card in one game, a playable character in another one, or a powerful spell in the third.
             </p>
           </div>
         </div>
         <div className="list">
           <img src={players2} alt="" />
           <div className="box">
-            <h1>True ownership and governance</h1>
+            <h1>Ownership and governance</h1>
             <p>
-              argarg asdfgasd gasrg awegas dgasrgawerg ar garg arg aer.arsg aerga rgasdrg.aerg arg aerga rg a.er gasdfgsnjhwrthwerth. wrtheryheryt jweryjrytjwrtjwrtjwrt.jw rtjwrt jwrt.
+              Players are not only the blood and bones of Solcery. They are its owners, rulers, and moderators, making decisions on the future of both the entire protocol and any individual game on it.
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export const Players = () => {
           <div className="box">
             <h1>E-sports ready</h1>
             <p>
-              argarg asdfgasd gasrg awegas dgasrgawerg ar garg arg aer.arsg aerga rgasdrg.aerg arg aerga rg a.er gasdfgsnjhwrthwerth. wrtheryheryt jweryjrytjwrtjwrtjwrt.jw rtjwrt jwrt.
+              Due to the permissionless and trustless nature of on-chain gaming, all the competitions can be organized and held without any centralized authority. Games results are easily verifiable, and the rewards distribution is transparent to all the participants.
             </p>
           </div>
         </div>

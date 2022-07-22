@@ -11,35 +11,33 @@ export const Creators = () => {
 
       <h1>For Creators</h1>
 
-      <p>Work together with game creators and NFT communities</p>
-      
+      <p>Effortlessly create alongside with other game developers and NFT communities</p>
+
       <div className="lists">
         <div className="list">
-          <img src={cr1} alt=""  />
+          <img src={cr1} alt="" />
           <div className="box">
             <h1>From idea to players in days</h1>
             <p>
-              Solcery comes with an intuitive visual programming node editor
-              that allows you to rapidly prototype, expand, and edit your game
-              logic...fast deploys...
+              Solcery comes with a set of intuitive and easy-to-use tools for visual programming and content management. They allow you to rapidly prototype your game logic, quickly integrate any NFT collections, fine-tune the game settings and instantly deploy a build for your players.
             </p>
           </div>
         </div>
         <div className="list">
-          <img src={cr3} alt=""  />
+          <img src={cr3} alt="" />
           <div className="box">
-            <h1>Solana as an endless source of creativity</h1>
+            <h1>Endless source of creativity</h1>
             <p>
-              NFT integration, fast support and iteration, instant access to communities, community-driven development, bottom-up approach
+              Solcery follows a bottom-up content creation approach, allowing games to utilize Solana as one of the biggest decentralized art databases in the world, and a community-driven game development approach, allowing groups of any size and background to make games together.
             </p>
           </div>
         </div>
         <div className="list">
-          <img src={cr2} alt=""  />
+          <img src={cr2} alt="" />
           <div className="box">
-            <h1>Your game - your rules</h1>
+            <h1>Game mastery</h1>
             <p>
-              Self-governed, monetize the way you want, no monopolies, restrictions, sustainable non-predatory free2play, open for modding, truly on-chain
+              Only you as the creator and your players own, shape, and govern your game. No external publishers, nonsense restrictions, or platform dictatorship stand between the game and its community.
             </p>
           </div>
         </div>

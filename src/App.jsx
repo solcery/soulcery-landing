@@ -72,7 +72,7 @@ function App() {
             <h1>Game Engine</h1>
             <h3>powered by Solana</h3>
             <p>
-              Create truly decentralized, open-source, community-driven games that can easily integrate with any NFT collection on Solana
+              Create truly decentralized, open-source, community-driven games interoperable with any NFT collection on Solana
             </p>
             <button>
               <a href="https://docs.solcery.xyz" target="_blank">
@@ -83,7 +83,7 @@ function App() {
 
           <div className="box_wrapper">
             <p>
-              Solcery is a zero-code on-chain game engine on Solana that gives its users a quick and easy way to create blockchain game experiences, instant access to an ever-growing library of these games, and an ability to turn any NFTs they own into the in-game assets with unique game mechanics.
+              Solcery is a zero-code on-chain game engine on Solana that gives its users a quick and easy way to create blockchain games with no prior coding experience required, is governed by players and developers, and provides an unmatched level of interoperability and composability of game mechanics and in-game assets.
             </p>
           </div>
         </main>
