@@ -58,12 +58,12 @@ header > img {
 header nav > * + * {
   margin-left: 0.5rem;
 }
-.main_area {
+.Top {
   height: 830px;
   display: flex;
   flex-direction: column;
 }
-.main_area::after {
+.Top::after {
   height: 800px;
   position: absolute;
   left: 0px;
@@ -799,7 +799,7 @@ main .box_wrapper p {
     padding: 0rem;
     padding-top: 2rem;
   }
-  .main_area {
+  .Top {
     height: 900px;
   }
 
@@ -809,7 +809,7 @@ main .box_wrapper p {
 }
 
 @media screen and (max-width: 650px) {
-  .main_area {
+  .Top {
     height: 875px;
   }
   .Games > h1 {
@@ -886,10 +886,10 @@ main .box_wrapper p {
   .Investors .Investor_pics {
     grid-template-columns: 1fr;
   }
-  .main_area {
+  .Top {
     height: 675px;
   }
-  .main_area::after {
+  .Top::after {
     height: 675px;
   }
   .creators .lists .box,
@@ -931,7 +931,7 @@ main .box_wrapper p {
   .Team {
     padding-bottom: 4rem;
   }
-  .main_area::after {
+  .Top::after {
     height: 750px;
   }
   .collection {
@@ -1029,7 +1029,7 @@ main .box_wrapper p {
   .Contacts nav img {
     height: unset !important;
   }
-  .main_area {
+  .Top {
     height: 700px;
   }
   .GameCard .presentation p
