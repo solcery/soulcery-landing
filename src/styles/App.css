@@ -322,7 +322,7 @@ main .box_wrapper p {
 }
 .Roadmap > h1,
 .Team > h1,
-.investor_wrapper > h1,
+.Investors > h1,
 .Contacts > h1,
 .creators > h1,
 .Players > h1 {
@@ -335,7 +335,7 @@ main .box_wrapper p {
 }
 .Roadmap > p,
 .Team > p,
-.investor_wrapper > p,
+.Investors > p,
 .Contacts > p,
 .creators > p,
 .Players > p {
@@ -383,19 +383,19 @@ main .box_wrapper p {
   text-align: center;
   color: #9294a0;
 }
-.investor_wrapper {
+.Investors {
   padding-top: 8rem;
 }
-.investor_wrapper > p {
+.Investors > p {
   margin-bottom: 4rem;
 }
-.investor_wrapper .inves_pic {
+.Investors .Investor_pics {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4rem;
   align-items: center;
 }
-.investor_wrapper .inves_pic img {
+.Investors .Investor_pics img {
   width: 100%;
 }
 .Contacts_wrapper {
@@ -708,7 +708,7 @@ main .box_wrapper p {
     padding-top: 2em;
     padding-bottom: 6em;
   }
-  .investor_wrapper {
+  .Investors {
     padding-top: 2em;
   }
 
@@ -785,7 +785,7 @@ main .box_wrapper p {
   .Team_wrapper {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .investor_wrapper .inves_pic {
+  .Investors .Investor_pics {
     grid-gap: 1em;
   }
   .collection {
@@ -846,7 +846,7 @@ main .box_wrapper p {
   }
   .Roadmap > p,
   .Team > p,
-  .investor_wrapper > p,
+  .Investors > p,
   .Contacts > p,
   .creators > p,
   .Players > p {
@@ -863,7 +863,7 @@ main .box_wrapper p {
   .collection > h1,
   .Roadmap > h1,
   .Team > h1,
-  .investor_wrapper > h1,
+  .Investors > h1,
   .Contacts > h1,
   .creators > h1,
   .Players > h1 {
@@ -883,7 +883,7 @@ main .box_wrapper p {
   .Team_wrapper {
     grid-template-columns: 1fr 1fr;
   }
-  .investor_wrapper .inves_pic {
+  .Investors .Investor_pics {
     grid-template-columns: 1fr;
   }
   .main_area {
