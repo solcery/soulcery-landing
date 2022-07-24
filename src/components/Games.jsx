@@ -7,7 +7,7 @@ import solitary from "../assets/img/games/solitary.webp";
 
 export const Games = () => {
     return (
-        <div className="Games_wrapper">
+        <div className="Games_wrapper" id = "games">
             <div className="Games common_width">
                 <h1>Made with Solcery</h1>
 

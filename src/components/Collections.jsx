@@ -11,7 +11,7 @@ import solgods from "../assets/img/collections/solgods.webp";
 
 export const Collections = () => {
     return (
-        <div className="collection common_width">
+        <div className="collection common_width" id="collections">
             <h1>Collections</h1>
             <h2>supported</h2>
 

@@ -9,7 +9,7 @@ import github from "../assets/img/links/github.svg";
 
 export const Contacts = () => {
     return (
-        <div className="Contacts_wrapper common_width">
+        <div className="Contacts_wrapper common_width" id="contacts">
             <div className="Contacts">
                 <h1>Join us</h1>
                 <p>

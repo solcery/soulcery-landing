@@ -13,7 +13,7 @@ import mari from "../assets/img/team/mari.webp";
 
 export const Team = () => {
     return (
-        <div className="Team common_width">
+        <div className="Team common_width" id="team">
             <h1>Team</h1>
             <p>
                 Most members of our team are gamedev veterans and have worked

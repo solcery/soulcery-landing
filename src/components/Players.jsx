@@ -4,7 +4,7 @@ import players3 from "../assets/img/players/3.webp";
 
 export const Players = () => {
   return (
-    <div className="Players common_width">
+    <div className="Players common_width" id="players">
       <h1>For Players</h1>
       <p>Dive into the new era of fun, game governance and game asset ownership</p>
       <div className="lists">

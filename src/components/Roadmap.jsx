@@ -7,7 +7,7 @@ import roadmap_forge from "../assets/img/roadmap/roadmap_forge.svg";
 
 export const Roadmap = () => {
     return (
-        <div className="Roadmap common_width">
+        <div className="Roadmap common_width" id="roadmap">
             <h1>Roadmap</h1>
             <p>
                 The real treasure is the games we made along the way
