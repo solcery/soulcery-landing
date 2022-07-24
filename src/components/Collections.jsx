@@ -33,48 +33,34 @@ export const Collections = () => {
                     },
                 }}
             >
-                <SplideSlide>
-                    <CollectionCard
-                        img={okay_bears}
-                        heading="Okay Bears"
-                    />
-                </SplideSlide>
-                <SplideSlide>
-                    <CollectionCard
-                        img={degods}
-                        heading="DeGods"
-                    />
-                </SplideSlide>
-                <SplideSlide>
-                    <CollectionCard
-                        img={daa}
-                        heading="Degenerate Ape Academy"
-                    />
-                </SplideSlide>
-                <SplideSlide>
-                    <CollectionCard
-                        img={bd}
-                        heading="Boryoku Dragons"
-                    />
-                </SplideSlide>
-                <SplideSlide>
-                    <CollectionCard
-                        img={bbd}
-                        heading="Boryoku Baby Dragons"
-                    />
-                </SplideSlide>
-                <SplideSlide>
-                    <CollectionCard
-                        img={smb}
-                        heading="Solana Monkey Business"
-                    />
-                </SplideSlide>
-                <SplideSlide>
-                    <CollectionCard
-                        img={solgods}
-                        heading="SOLgods"
-                    />
-                </SplideSlide>
+                <CollectionCard
+                    img={okay_bears}
+                    heading="Okay Bears"
+                />
+                <CollectionCard
+                    img={degods}
+                    heading="DeGods"
+                />
+                <CollectionCard
+                    img={daa}
+                    heading="Degenerate Ape Academy"
+                />
+                <CollectionCard
+                    img={bd}
+                    heading="Boryoku Dragons"
+                />
+                <CollectionCard
+                    img={bbd}
+                    heading="Boryoku Baby Dragons"
+                />
+                <CollectionCard
+                    img={smb}
+                    heading="Solana Monkey Business"
+                />
+                <CollectionCard
+                    img={solgods}
+                    heading="SOLgods"
+                />
             </Splide>
         </div>
     );
