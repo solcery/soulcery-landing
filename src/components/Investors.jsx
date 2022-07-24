@@ -4,7 +4,7 @@ import solana from "../assets/img/investors/Solana.webp";
 
 export const Investors = () => {
     return (
-        <div className="Investors common_width">
+        <div className="Investors common_width" id = "investors">
             <h1>Investors</h1>
             <p>
                 We are honoured to be backed and adviced by these powerhouses. They have been of an immense help and an endless source of knowledge, feedback and experience in our journey so far.
