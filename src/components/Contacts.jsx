@@ -17,27 +17,27 @@ export const Contacts = ({ notion, discord, twitter, medium, github }) => {
 
                 <nav>
                     <li>
-                        <a href="#">
+                        <a href="https://docs.solcery.xyz" target="_blank">
                             <img src={notion} alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://discord.com/invite/Yk9GEpPTA7" target="_blank">
                             <img src={discord} alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://twitter.com/SolceryGames" target="_blank">
                             <img src={twitter} alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://medium.com/@solcery" target="_blank">
                             <img src={medium} alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://github.com/solcery" target="_blank">
                             <img src={github} alt="" />
                         </a>
                     </li>
