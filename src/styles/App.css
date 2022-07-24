@@ -573,9 +573,9 @@ main .box_wrapper p {
 .splide__slide {
   cursor: pointer;
 }
-.splide__slide > * {
+/* .splide__slide > * {
   pointer-events: none !important;
-}
+} */
 .slider_box > *.active::before {
   width: 100%;
   height: 4px;

@@ -36,30 +36,37 @@ export const Collections = () => {
                 <CollectionCard
                     img={okay_bears}
                     heading="Okay Bears"
+                    link='https://www.okaybears.com'
                 />
                 <CollectionCard
                     img={degods}
                     heading="DeGods"
+                    link='https://www.degods.com'
                 />
                 <CollectionCard
                     img={daa}
                     heading="Degenerate Ape Academy"
+                    link='https://www.degenape.academy'
                 />
                 <CollectionCard
                     img={bd}
                     heading="Boryoku Dragons"
+                    link='https://boryokudragonz.io'
                 />
                 <CollectionCard
                     img={bbd}
                     heading="Boryoku Baby Dragons"
+                    link='https://boryokudragonz.io'
                 />
                 <CollectionCard
                     img={smb}
                     heading="Solana Monkey Business"
+                    link='https://solanamonkey.business'
                 />
                 <CollectionCard
                     img={solgods}
                     heading="SOLgods"
+                    link='https://thefracture.art'
                 />
             </Splide>
         </div>
