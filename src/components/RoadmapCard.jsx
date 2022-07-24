@@ -2,20 +2,20 @@ import { SplideSlide } from "@splidejs/react-splide";
 
 export const RoadmapCard = ({ img, heading, time, description, link, newTab = true }) => {
     return (
-        <SplideSlide
-            onClick={(e) => link ? window.open(link, newTab ? '_blank' : '_self', 'noopener,noreferrer') : null}
-        >
-            <div className={`box`}>
-                <img src={img} alt="" />
+        <SplideSlide>
+            <a href={link} target={newTab ? "_blank" : "_self"}>
+                <div className={`box`}>
+                    <img src={img} alt="" />
 
-                <div className="presentation">
-                    <h1>{heading}</h1>
-                    <p>
-                        <b>{time}. </b>
-                        {description}
-                    </p>
+                    <div className="presentation">
+                        <h1>{heading}</h1>
+                        <p>
+                            <b>{time}. </b>
+                            {description}
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </SplideSlide>
     );
 };
