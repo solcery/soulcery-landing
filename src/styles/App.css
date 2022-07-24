@@ -590,7 +590,7 @@ main .box_wrapper p {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 380px;
+  top: 350px;
   width: 85%;
   content: '';
   z-index: -22;
