@@ -144,7 +144,7 @@ main .box_wrapper {
     rgba(36, 231, 242, 0.2) 100%
   );
 
-  padding: 3rem;
+  padding: 2.5rem 2.5rem;
   width: 900px;
   margin-top: 3rem;
   border-radius: 20px;
