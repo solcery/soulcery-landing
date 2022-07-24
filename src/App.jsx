@@ -15,10 +15,22 @@ import { Team } from "./components/Team";
 import { Contacts } from "./components/Contacts";
 import { Investors } from "./components/Investors";
 
+import notion from "./assets/img/links/notion.png";
+import discord from "./assets/img/links/discord.svg";
+import twitter from "./assets/img/links/twitter.svg";
+import medium from "./assets/img/links/medium.svg";
+import github from "./assets/img/links/github.svg";
+
 function App() {
   return (
     <div className="App">
-      <Top />
+      <Top
+        notion={notion}
+        discord={discord}
+        twitter={twitter}
+        medium={medium}
+        github={github}
+      />
       <Games />
       <Collections />
       <Players />
@@ -26,7 +38,13 @@ function App() {
       <Roadmap />
       <Team />
       <Investors />
-      <Contacts />
+      <Contacts
+        notion={notion}
+        discord={discord}
+        twitter={twitter}
+        medium={medium}
+        github={github}
+      />
     </div>
   );
 }

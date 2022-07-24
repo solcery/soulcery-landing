@@ -1,4 +1,4 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Splide } from "@splidejs/react-splide";
 import { CollectionCard } from "./CollectionCard";
 
 import okay_bears from "../assets/img/collections/okay_bears.webp";

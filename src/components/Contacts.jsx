@@ -1,13 +1,7 @@
 import footer_logo from "../assets/img/footer/footer_logo.png";
 import footer_button from "../assets/img/footer/footer_button.png";
 
-import notion from "../assets/img/links/notion.png";
-import discord from "../assets/img/links/discord.svg";
-import twitter from "../assets/img/links/twitter.svg";
-import medium from "../assets/img/links/medium.svg";
-import github from "../assets/img/links/github.svg";
-
-export const Contacts = () => {
+export const Contacts = ({ notion, discord, twitter, medium, github }) => {
     return (
         <div className="Contacts_wrapper common_width" id="contacts">
             <div className="Contacts">

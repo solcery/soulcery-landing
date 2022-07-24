@@ -1,13 +1,7 @@
 import logo from "../assets/img/header/logo.webp";
 import header_button from "../assets/img/header/header_button.png";
 
-import notion from "../assets/img/links/notion.png";
-import discord from "../assets/img/links/discord.svg";
-import twitter from "../assets/img/links/twitter.svg";
-import medium from "../assets/img/links/medium.svg";
-import github from "../assets/img/links/github.svg";
-
-export const Top = () => {
+export const Top = ({ notion, discord, twitter, medium, github }) => {
     return (
         <div className="Top">
             <header className="common_width">
