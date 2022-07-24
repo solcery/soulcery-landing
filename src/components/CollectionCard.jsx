@@ -1,5 +1,3 @@
-import React from "react";
-
 export const CollectionCard = ({ img, heading }) => {
   return (
     <div className="CollectionCard">
