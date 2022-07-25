@@ -1,8 +1,8 @@
 import { Splide } from "@splidejs/react-splide";
 import { RoadmapCard } from "./RoadmapCard";
 
-import road_map_line from "../assets/img/roadmap/roadmap_line.png";
-import roadmap_hackathon from "../assets/img/roadmap/roadmap_hackathon.svg";
+import road_map_line from "../assets/img/roadmap/roadmap_line.webp";
+// import roadmap_hackathon from "../assets/img/roadmap/roadmap_hackathon.svg";
 import roadmap_hackathon_done from "../assets/img/roadmap/roadmap_hackathon_done.svg";
 import roadmap_game from "../assets/img/roadmap/roadmap_game.svg";
 import roadmap_game_done from "../assets/img/roadmap/roadmap_game_done.svg";
