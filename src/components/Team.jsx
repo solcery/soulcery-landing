@@ -23,7 +23,7 @@ export const Team = () => {
             <div className="Team_wrapper">
                 <TeamMember img={tjumma} heading="tjumma" para="Co-founder, CEO" />
                 <TeamMember img={teuzet} heading="teuzet" para="Co-founder, CTO" />
-                <TeamMember img={ellador} heading="ellador" para="Lead Game Designer" />
+                <TeamMember img={ellador} heading="ellador" para="Head of Game Design" />
                 <TeamMember img={kurutsu} heading="kurutsu" para="Rust Developer" />
                 <TeamMember img={opensr} heading="opensr" para="Head of Client Engineering" />
                 <TeamMember img={kungurov} heading="kungurov" para="Unity Developer" />
