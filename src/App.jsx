@@ -1,4 +1,15 @@
 import "./styles/App.css";
+import "./styles/1450.css";
+import "./styles/1150.css";
+import "./styles/1000.css";
+import "./styles/800.css";
+import "./styles/700.css";
+import "./styles/650.css";
+import "./styles/530.css";
+import "./styles/480.css";
+import "./styles/440.css";
+import "./styles/400.css";
+import "./styles/330.css";
 
 import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/skyblue";

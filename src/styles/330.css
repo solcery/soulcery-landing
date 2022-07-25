@@ -1,0 +1,35 @@
+@media screen and (max-width: 330px) {
+    header nav img,
+    .Contacts nav img {
+      height: unset !important;
+    }
+    .Top {
+      height: 700px;
+    }
+    .GameCard .presentation p
+    {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .CollectionCard .presentation .bottom_area h1 {
+      font-size: 11px !important;
+    }
+    .CollectionCard {
+      padding: 0.5rem;
+    }
+    .CollectionCard .presentation {
+      padding-top: 1rem;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      height: 4.25rem;
+    }
+    .CollectionCard .presentation h1 {
+      line-height: 1.25rem;
+    }
+    .splide__pagination__page {
+      width: 13px !important;
+      height: 13px !important;
+      margin: 0px 1px !important;
+    }
+  }

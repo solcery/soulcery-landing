@@ -1,0 +1,72 @@
+@media screen and (max-width: 1150px) {
+    .creators > img {
+      display: none;
+    }
+    .Players > img {
+      display: none;
+    }
+    .creators .lists .box,
+    .Players .lists .box {
+      position: static;
+      width: 97%;
+    }
+    .Players .lists .box {
+      background: #0e142b;
+      border: 2px solid #801887;
+      padding: 2rem;
+      border-radius: 10px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 9999;
+    }
+    .Players .lists .list {
+      display: block;
+    }
+    .creators .lists .list {
+      display: block;
+    }
+    .creators .lists > * > img,
+    .Players .lists > * > img {
+      width: 100%;
+    }
+    .creators,
+    .Players {
+      height: unset !important;
+    }
+    .slider_box > img {
+      display: none;
+    }
+    .Team_wrapper {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .creators,
+    .Players {
+      padding-top: 0rem;
+    }
+    .creators .lists > * + *,
+    .Players .lists > * + * {
+      margin-top: 0rem;
+    }
+    .collection {
+      padding-bottom: 10rem;
+    }
+    .Roadmap {
+      padding-top: 0em;
+      padding-bottom: 6em;
+    }
+    .Team {
+      padding-top: 2em;
+      padding-bottom: 6em;
+    }
+    .Investors {
+      padding-top: 2em;
+    }
+  
+    .slider_box .box {
+      padding-bottom: 0em;
+    }
+    .Contacts_wrapper {
+      padding-top: 2em;
+    }
+  }

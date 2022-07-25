@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px) {
+    header {
+      height: 100px;
+    }
+    header > img {
+      width: 150px;
+      margin-right: 30px;
+    }
+    header nav img,
+    .Contacts nav img {
+      width: 30px;
+      height: 30px;
+    }
+    .Games > h1 {
+      margin-bottom: 3rem;
+    }
+    .Contacts > .footer_logo {
+      width: 250px;
+    }
+    .Roadmap {
+      padding-bottom: 4rem;
+    }
+    .Team {
+      padding-bottom: 4rem;
+    }
+    .Top::after {
+      height: 750px;
+    }
+    .collection {
+      padding-top: 5rem !important;
+      padding-bottom: 8rem !important;
+    }
+    .collection .splide__pagination {
+      bottom: -3rem !important;
+    }
+    .splide__pagination {
+      bottom: 0rem;
+    }
+    .creators .lists .box,
+    .Players .lists .box {
+      transform: translateY(-15%);
+    }
+    .creators .lists .box {
+      padding: 1.5rem;
+    }
+  }

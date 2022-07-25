@@ -1,0 +1,62 @@
+@media screen and (max-width: 440px) {
+  .GameCard .presentation p {
+    font-size: 14 px;
+    line-height: 24px;
+  }
+  .creators .lists .box > p,
+  .Players .lists .box > p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .creators .lists .box > h1,
+  .Players .lists .box > h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .Players .lists .box {
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  .creators .lists,
+  .Players .lists {
+    padding: 0rem;
+    padding-top: 1rem;
+  }
+  .Games > h1 
+  {
+    margin-bottom: 1.5rem;
+  }
+  .GameCard .presentation {
+    padding: 1.5rem;
+  }
+  .Games .splide__pagination {
+    bottom: 1rem !important;
+  }
+  .Team_wrapper {
+    grid-column-gap: 10px;
+    grid-row-gap: 2rem;
+  }
+  .Team .TeamMember .presentation > h1 {
+    font-size: 20px;
+  }
+  .Team .TeamMember .presentation > p {
+    font-size: 14px;
+  }
+  .Team .TeamMember img {
+    width: 120px;
+  }
+  .collection {
+    padding-top: 4rem !important;
+    padding-bottom: 7rem !important;
+  }
+  .CollectionCard .presentation .bottom_area h1 {
+    font-size: 16px !important;
+  }
+  .collection .splide__pagination {
+    bottom: -3rem !important;
+  }
+  .splide__pagination {
+    bottom: 0.5rem !important;
+  }
+}

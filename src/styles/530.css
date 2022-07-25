@@ -1,0 +1,79 @@
+@media screen and (max-width: 530px) {
+    .Games > h1 {
+      font-size: 30px;
+      margin-bottom: 2rem;
+    }
+    .Games {
+      padding-top: 3em;
+    }
+    .collection .splide__pagination {
+      bottom: -5rem !important;
+    }
+    .slider_box {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .Team .TeamMember img {
+      width: 150px;
+    }
+    .Roadmap > p,
+    .Team > p,
+    .Investors > p,
+    .Contacts > p,
+    .creators > p,
+    .Players > p {
+      width: 100%;
+    }
+    main .box_wrapper {
+      padding: 1rem;
+    }
+    main h1 {
+      font-size: 35px;
+      margin-bottom: 5px;
+      line-height: unset;
+    }
+    .collection > h1,
+    .Roadmap > h1,
+    .Team > h1,
+    .Investors > h1,
+    .Contacts > h1,
+    .creators > h1,
+    .Players > h1 {
+      font-size: 30px;
+    }
+    main p,
+    main .box_wrapper p {
+      font-size: 15px;
+      line-height: unset;
+    }
+    main button img {
+      width: 200px;
+    }
+    .Contacts > p {
+      width: 90% !important;
+    }
+    .Team_wrapper {
+      grid-template-columns: 1fr 1fr;
+    }
+    .Investors .Investor_pics {
+      grid-template-columns: 1fr;
+    }
+    .Top {
+      height: 675px;
+    }
+    .Top::after {
+      height: 675px;
+    }
+    .creators .lists .box,
+    .Players .lists .box {
+      transform: translateY(-20%);
+    }
+    .Contacts_wrapper {
+      height: 800px;
+    }
+    .splide__pagination__page {
+      width: 15px !important;
+      height: 15px !important;
+      margin: 0px 2px !important;
+    }
+  }

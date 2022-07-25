@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    .collection {
+      padding-bottom: 10rem;
+    }
+    .Team {
+      padding-top: 1em;
+    }
+    main .box_wrapper,
+    main .presentation {
+      width: 95%;
+    }
+  
+    .creators .lists .box,
+    .Players .lists .box {
+      transform: translateY(-22%);
+    }
+  
+    .creators .lists,
+    .Players .lists {
+      padding-top: 2.5em;
+    }
+  
+    .creators,
+    .Players {
+      margin-bottom: 2em !important;
+    }
+  }

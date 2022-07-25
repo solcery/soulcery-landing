@@ -1,0 +1,22 @@
+@media screen and (max-width: 400px) {
+    .Games .splide__pagination {
+      bottom: 0rem !important;
+    }
+    .GameCard .presentation p
+    {
+      font-size: 12px;
+      line-height: 18px;
+    }
+    .collection {
+      padding-top: 5rem !important;
+      padding-bottom: 7rem !important;
+    }
+    .slider_box p {
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .CollectionCard .presentation .bottom_area h1 {
+      font-size: 15px !important;
+    }
+  }

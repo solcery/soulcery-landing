@@ -1,0 +1,14 @@
+@media screen and (max-width: 700px) {
+    .creators .lists,
+    .Players .lists {
+      padding: 0rem;
+      padding-top: 2rem;
+    }
+    .Top {
+      height: 900px;
+    }
+  
+    .collection .splide__pagination {
+      bottom: -3rem !important;
+    }
+  }

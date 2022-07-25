@@ -1,0 +1,8 @@
+@media screen and (max-width: 1450px) {
+    .common_width {
+      width: 95%;
+    }
+    .Contacts_wrapper {
+      width: 100%;
+    }
+  }
