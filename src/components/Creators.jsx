@@ -1,5 +1,4 @@
 import React from "react";
-import c_circle from "../assets/img/decor/c_circle.png";
 import cr1 from "../assets/img/creators/1.webp";
 import cr2 from "../assets/img/creators/3.webp";
 import cr3 from "../assets/img/creators/2.webp";
