@@ -3,7 +3,7 @@ import { SplideSlide } from "@splidejs/react-splide";
 export const RoadmapCard = ({ img, heading, time, description, link, newTab = true }) => {
     return (
         <SplideSlide>
-            <a href={link} target={newTab ? "_blank" : "_self"}>
+            <a href={link} target={newTab ? "_blank" : "_self"} rel={newTab ? "noreferrer" : ""}>
                 <div className={`box`}>
                     <img src={img} alt="" />
 

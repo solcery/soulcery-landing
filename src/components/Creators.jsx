@@ -6,12 +6,11 @@ import cr3 from "../assets/img/creators/2.webp";
 export const Creators = () => {
   return (
     <div className="creators common_width" id="creators">
-      {/* <img src={c_circle} alt="" style = {{ zIndex: -100}}/> */}
 
       <h1>For Creators</h1>
 
       <p>Effortlessly create alongside with other game developers and NFT communities</p>
-
+      
       <div className="lists">
         <div className="list">
           <img src={cr1} alt="" />
