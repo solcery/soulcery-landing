@@ -8,27 +8,27 @@ export const Top = ({ notion, discord, twitter, medium, github }) => {
                 <img src={logo} alt="" />
                 <nav>
                     <li>
-                        <a href="https://docs.solcery.xyz" target="_blank">
+                        <a href="https://docs.solcery.xyz" target="_blank" rel="noreferrer">
                             <img style={{ display: "block", width: "100%" }} src={notion} alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://discord.com/invite/Yk9GEpPTA7" target="_blank">
+                        <a href="https://discord.com/invite/Yk9GEpPTA7" target="_blank" rel="noreferrer">
                             <img style={{ display: "block", width: "100%" }} src={discord} alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/SolceryGames" target="_blank">
+                        <a href="https://twitter.com/SolceryGames" target="_blank" rel="noreferrer">
                             <img style={{ display: "block", width: "100%" }} src={twitter} alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://medium.com/@solcery" target="_blank">
+                        <a href="https://medium.com/@solcery" target="_blank" rel="noreferrer">
                             <img style={{ display: "block", width: "100%" }} src={medium} alt="" />
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/solcery" target="_blank">
+                        <a href="https://github.com/solcery" target="_blank" rel="noreferrer">
                             <img style={{ display: "block", width: "100%" }} src={github} alt="" />
                         </a>
                     </li>
@@ -44,7 +44,7 @@ export const Top = ({ notion, discord, twitter, medium, github }) => {
                         Create truly decentralized, open-source, community-driven games interoperable with any NFT collection on Solana
                     </p>
                     <button>
-                        <a href="https://docs.solcery.xyz" target="_blank">
+                        <a href="https://docs.solcery.xyz" target="_blank" rel="noreferrer">
                             <img src={header_button} alt="" />
                         </a>
                     </button>

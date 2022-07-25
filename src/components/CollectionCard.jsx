@@ -4,7 +4,7 @@ export const CollectionCard = ({ img, heading, link }) => {
   return (
 
     <SplideSlide>
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noreferrer">
         <div className="CollectionCard">
           <img src={img} alt="" />
           <div className="presentation">
