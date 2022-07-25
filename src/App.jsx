@@ -26,7 +26,7 @@ import { Team } from "./components/Team";
 import { Contacts } from "./components/Contacts";
 import { Investors } from "./components/Investors";
 
-import notion from "./assets/img/links/notion.png";
+import notion from "./assets/img/links/notion.svg";
 import discord from "./assets/img/links/discord.svg";
 import twitter from "./assets/img/links/twitter.svg";
 import medium from "./assets/img/links/medium.svg";
