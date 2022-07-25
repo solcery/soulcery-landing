@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles/Main.css";
 import "./styles/1450.css";
 import "./styles/1150.css";
 import "./styles/1000.css";
