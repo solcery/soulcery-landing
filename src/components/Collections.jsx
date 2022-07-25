@@ -60,7 +60,7 @@ export const Collections = () => {
                 />
                 <CollectionCard
                     img={smb}
-                    heading="Solana Monkey Business"
+                    heading="SMB"
                     link='https://solanamonkey.business'
                 />
                 <CollectionCard
