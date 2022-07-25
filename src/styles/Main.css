@@ -301,9 +301,14 @@ main .box_wrapper p {
   text-align: left;
   color: #9294a0;
 }
-.Roadmap,
+.Roadmap {
+  padding-top: 4rem;
+}
 .Team {
   padding-top: 6rem;
+}
+.Roadmap,
+.Team {
   padding-bottom: 2rem;
   position: relative;
 }

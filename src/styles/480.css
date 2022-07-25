@@ -43,4 +43,7 @@
     .creators .lists .box {
       padding: 1.5rem;
     }
+    .splide__pagination {
+      bottom: 0rem;
+    }
   }
