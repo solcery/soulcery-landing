@@ -401,7 +401,7 @@ main .box_wrapper p {
 }
 .Contacts_wrapper {
   padding-top: 8rem;
-  background: url('../assets/img/footer/footer_bg.png');
+  background: url('../assets/img/footer/footer_bg.svg');
   height: 965px;
   display: flex;
   background-position: center;
