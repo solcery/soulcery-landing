@@ -52,7 +52,7 @@ export const Top = ({ notion, discord, twitter, medium, github }) => {
 
                 <div className="box_wrapper">
                     <p>
-                        Solcery is a zero-code on-chain game engine. <br></br><br></br> - It lets you quickly and easily create blockchain games - Requires no prior coding experience - Is governed entirely by players and creators - And provides an unmatched level of interoperability and composability of game mechanics and in-game assets.
+                        Solcery is a zero-code on-chain game engine that gives anyone a quick and easy way to create blockchain games, requires no prior coding experience, is governed by players and developers, and provides an unmatched level of interoperability and composability of game mechanics and in-game assets.
                     </p>
                 </div>
             </main>

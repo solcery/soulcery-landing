@@ -13,16 +13,17 @@
     }
     .CollectionCard .presentation .bottom_area h1 {
       font-size: 11px !important;
+      line-height: 20px !important;
     }
     .CollectionCard {
       padding: 0.5rem;
     }
     .CollectionCard .presentation {
-      padding-top: 1rem;
+      padding-top: 0.5rem;
       padding-left: 0px;
       padding-right: 0px;
       padding-bottom: 0px;
-      height: 4.25rem;
+      height: 3.25rem;
     }
     .CollectionCard .presentation h1 {
       line-height: 1.25rem;

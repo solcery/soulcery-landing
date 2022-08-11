@@ -46,4 +46,18 @@
     .splide__pagination {
       bottom: 0rem;
     }
+    .CollectionCard
+    {
+      padding: 1rem 1rem 1rem 1rem;
+    }
+    .CollectionCard .presentation .bottom_area h1
+    {
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .CollectionCard .presentation
+    {
+      padding-top: 1rem;
+      height: 5rem;
+    }
   }

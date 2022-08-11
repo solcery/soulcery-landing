@@ -11,7 +11,9 @@ export const Contacts = ({ notion, discord, twitter, medium, github }) => {
                 </p>
 
                 <button>
-                    <img src={footer_button} alt="" />
+                    <a href="https://twitter.com/messages/compose?recipient_id=1407885488543895552" target="_blank" rel="noreferrer">
+                        <img src={footer_button} alt="" />
+                    </a>
                 </button>
                 <img src={footer_logo} alt="" className="footer_logo" />
 
