@@ -100,7 +100,7 @@ export const Roadmap = () => {
                         heading="Eclipse"
                         time="August 2022"
                         description="A single-player resource management strategy game with a focus on oboarding NFTs and community-driven development."
-                        link='https://docs.solcery.xyz/games/eclipse'
+                        link='https://play.solcery.xyz/eclipse'
                     />
                     <RoadmapCard
                         img={roadmap_round}
