@@ -44,7 +44,7 @@ export const Top = ({ notion, discord, twitter, medium, github }) => {
                         Create truly decentralized, open-source, community-driven games interoperable with any NFT collection on Solana
                     </p>
                     <button>
-                        <a href="https://docs.solcery.xyz" target="_blank" rel="noreferrer">
+                        <a href="https://play.solcery.xyz" target="_blank" rel="noreferrer">
                             <img src={header_button} alt="" />
                         </a>
                     </button>
