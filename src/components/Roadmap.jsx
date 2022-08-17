@@ -113,7 +113,7 @@ export const Roadmap = () => {
                         img={roadmap_ratings}
                         heading="Ratings"
                         time="Q3 2022"
-                        description="Ratings and Leaderboards protocols to bring competitiveness and reward the best."
+                        description="Protocols and services to bring competitiveness to the next level and reward the best."
                     />
                     <RoadmapCard
                         img={roadmap_sry}
