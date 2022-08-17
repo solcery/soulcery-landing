@@ -85,7 +85,7 @@ export const Roadmap = () => {
                         img={roadmap_vm_done}
                         heading="Solcery Virtual Machine"
                         time="December 2021"
-                        description="An on-chain protocol meant to be the ultimate source of consensys around any game state or any game result."
+                        description="An on-chain protocol meant to be the ultimate source of consensus around any game state or any game result."
                         link='https://docs.solcery.xyz/protocols/solcery-vm'
                     />
                     <RoadmapCard
