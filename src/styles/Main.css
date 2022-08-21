@@ -48,6 +48,14 @@ header nav {
   display: flex;
   align-items: center;
 }
+header nav img:hover
+{
+  opacity: 0.85;
+}
+.Contacts nav img:hover
+{
+  opacity: 0.85;
+}
 header {
   justify-content: space-between;
   height: 150px;
