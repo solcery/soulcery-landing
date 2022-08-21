@@ -29,7 +29,7 @@ export const Team = () => {
                 <TeamMember img={kungurov} heading="kungurov" para="Unity Developer" />
                 <TeamMember img={loogris} heading="loogris" para="Game Designer" />
                 <TeamMember img={irina} heading="irina" para="Sage Product Designer" />
-                <TeamMember img={merlin} heading="merlin" para="Advisor" />
+                <TeamMember img={merlin} heading="merlin" para="Architect" />
                 <TeamMember img={mari} heading="mari" para="Artist" />
             </div>
         </div>
