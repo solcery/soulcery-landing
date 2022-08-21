@@ -92,6 +92,9 @@ main .presentation {
   margin-left: auto;
   margin-right: auto;
 }
+main button img:hover {
+  opacity: 0.88;
+}
 main h1 {
   font-size: 63px;
   font-weight: 700;
@@ -415,6 +418,9 @@ main .box_wrapper p {
 
   align-items: center;
   justify-content: center;
+}
+.Contacts button img:hover {
+  opacity: 0.88;
 }
 .Contacts > p {
   margin-bottom: 4rem;
