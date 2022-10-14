@@ -9,7 +9,7 @@ export const Games = () => {
     return (
         <div className="Games_wrapper" id = "games">
             <div className="Games common_width">
-                <h1>Made with Solcery</h1>
+                <h1>Made with Soulcery</h1>
 
                 <Splide
                     options={{

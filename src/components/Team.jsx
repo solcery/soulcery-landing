@@ -17,7 +17,7 @@ export const Team = () => {
             <h1>Team</h1>
             <p>
                 Most members of our team are gamedev veterans and have worked
-                side by side on many projects before. We are happy to be able to put our forces together to create Solcery, mixing our knowledge and previous experience with a new vision for the future of the whole industry.
+                side by side on many projects before. We are happy to be able to put our forces together to create Soulcery, mixing our knowledge and previous experience with a new vision for the future of the whole industry.
             </p>
 
             <div className="Team_wrapper">

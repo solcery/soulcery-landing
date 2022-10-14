@@ -13,7 +13,7 @@ export const Players = () => {
           <div className="box">
             <h1>True interoperability</h1>
             <p>
-              All the assets the players own can be used as in-game entities across any Solcery games, acquiring game mechanics unique to each of them. Your favorite NFT will become a rare card in one game, a playable character in another one, or a powerful spell in the third.
+              All the assets the players own can be used as in-game entities across any Soulcery games, acquiring game mechanics unique to each of them. Your favorite NFT will become a rare card in one game, a playable character in another one, or a powerful spell in the third.
             </p>
           </div>
         </div>
@@ -22,7 +22,7 @@ export const Players = () => {
           <div className="box">
             <h1>Ownership and governance</h1>
             <p>
-              Players are not only the blood and bones of Solcery. They are its owners, rulers, and moderators, making decisions on the future of both the entire protocol and any individual game on it.
+              Players are not only the blood and bones of Soulcery. They are its owners, rulers, and moderators, making decisions on the future of both the entire protocol and any individual game on it.
             </p>
           </div>
         </div>

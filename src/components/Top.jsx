@@ -18,7 +18,7 @@ export const Top = ({ notion, discord, twitter, medium, github }) => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/SolceryGames" target="_blank" rel="noreferrer">
+                        <a href="https://twitter.com/SoulceryGames" target="_blank" rel="noreferrer">
                             <img style={{ display: "block", width: "100%" }} src={twitter} alt="" />
                         </a>
                     </li>
@@ -52,7 +52,7 @@ export const Top = ({ notion, discord, twitter, medium, github }) => {
 
                 <div className="box_wrapper">
                     <p>
-                        Solcery is a zero-code on-chain game engine that gives anyone a quick and easy way to create blockchain games, requires no prior coding experience, is governed by players and developers, and provides an unmatched level of interoperability and composability of game mechanics and in-game assets.
+                        Soulcery is a zero-code on-chain game engine that gives anyone a quick and easy way to create blockchain games, requires no prior coding experience, is governed by players and developers, and provides an unmatched level of interoperability and composability of game mechanics and in-game assets.
                     </p>
                 </div>
             </main>

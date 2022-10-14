@@ -7,7 +7,7 @@ export const Contacts = ({ notion, discord, twitter, medium, github }) => {
             <div className="Contacts">
                 <h1>Join us</h1>
                 <p>
-                    We are always looking for talents and game enthusiasts. Wether you want to develop Solcery with us, make cool games, propose an improvement or just share a story, shoot us a message!
+                    We are always looking for talents and game enthusiasts. Wether you want to develop Soulcery with us, make cool games, propose an improvement or just share a story, shoot us a message!
                 </p>
 
                 <button>
@@ -29,7 +29,7 @@ export const Contacts = ({ notion, discord, twitter, medium, github }) => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/SolceryGames" target="_blank" rel="noreferrer">
+                        <a href="https://twitter.com/SoulceryGames" target="_blank" rel="noreferrer">
                             <img src={twitter} alt="" />
                         </a>
                     </li>

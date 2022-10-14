@@ -56,7 +56,7 @@ export const Roadmap = () => {
                         img={roadmap_game_done}
                         heading="Summoner"
                         time="August 2021"
-                        description="The very first game made with Solcery. A deckbuilding PvP game with a fully on-chain logic"
+                        description="The very first game made with Soulcery. A deckbuilding PvP game with a fully on-chain logic"
                         link='https://docs.soulcery.xyz/games/summoner'
                     />
                     <RoadmapCard
@@ -71,7 +71,7 @@ export const Roadmap = () => {
                         img={roadmap_hackathon_done}
                         heading="Ignition Hackathon"
                         time="October 2021"
-                        description="Honorable mention and a proof of concept for onboarding any Solana NFT into Solcery games"
+                        description="Honorable mention and a proof of concept for onboarding any Solana NFT into Soulcery games"
                         link='https://solana.com/news/solana-ignition-hackathon-winners'
                     />
                     <RoadmapCard
@@ -83,7 +83,7 @@ export const Roadmap = () => {
                     />
                     <RoadmapCard
                         img={roadmap_vm_done}
-                        heading="Solcery Virtual Machine"
+                        heading="Soulcery Virtual Machine"
                         time="December 2021"
                         description="An on-chain protocol meant to be the ultimate source of consensus around any game state or any game result"
                         link='https://docs.soulcery.xyz/protocols/soulcery-vm'
@@ -92,7 +92,7 @@ export const Roadmap = () => {
                         img={roadmap_sage_done}
                         heading="Sage"
                         time="March 2022"
-                        description="Solcery game editor itself - a zero-code engine and an easy-to-use content management system"
+                        description="Soulcery game editor itself - a zero-code engine and an easy-to-use content management system"
                         link='https://docs.soulcery.xyz/create/soulcery-editor'
                     />
                     <RoadmapCard
@@ -119,20 +119,20 @@ export const Roadmap = () => {
                         img={roadmap_sry}
                         heading="SRY token launch"
                         time="Q4 2022"
-                        description="The launch of SRY token - the essential piece in decentralizing Solcery ecosystem"
+                        description="The launch of SRY token - the essential piece in decentralizing Soulcery ecosystem"
                     />
                     <RoadmapCard
                         img={roadmap_forge}
-                        heading="Solcery Forge"
+                        heading="Soulcery Forge"
                         time="Q4 2022"
-                        description="A protocol that handles turning any Solana NFT into an in-game asset interoperable for all Solcery games"
+                        description="A protocol that handles turning any Solana NFT into an in-game asset interoperable for all Soulcery games"
                         link='https://docs.soulcery.xyz/protocols/soulcery-forge'
                     />
                     <RoadmapCard
                         img={roadmap_mobile}
                         heading="Mobile client"
                         time="Q1 2023"
-                        description="Solcery starts its journey with SAGA and SMS, the mobile-native crypto stack"
+                        description="Soulcery starts its journey with SAGA and SMS, the mobile-native crypto stack"
                     />
                     <RoadmapCard
                         img={roadmap_p2p}
