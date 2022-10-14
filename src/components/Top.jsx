@@ -1,4 +1,4 @@
-import logo from "../assets/img/header/logo.webp";
+import logo from "../assets/img/header/logo.png";
 import header_button from "../assets/img/header/header_button.png";
 
 export const Top = ({ gitbook, discord, twitter, medium, github }) => {
