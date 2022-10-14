@@ -1,7 +1,7 @@
 import footer_logo from "../assets/img/footer/footer_logo.png";
 import footer_button from "../assets/img/footer/footer_button.png";
 
-export const Contacts = ({ notion, discord, twitter, medium, github }) => {
+export const Contacts = ({ gitbook, discord, twitter, medium, github }) => {
     return (
         <div className="Contacts_wrapper common_width" id="contacts">
             <div className="Contacts">
@@ -20,7 +20,7 @@ export const Contacts = ({ notion, discord, twitter, medium, github }) => {
                 <nav>
                     <li>
                         <a href="https://docs.soulcery.xyz" target="_blank" rel="noreferrer">
-                            <img src={notion} alt="" />
+                            <img src={gitbook} alt="" />
                         </a>
                     </li>
                     <li>

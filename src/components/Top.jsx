@@ -1,7 +1,7 @@
 import logo from "../assets/img/header/logo.webp";
 import header_button from "../assets/img/header/header_button.png";
 
-export const Top = ({ notion, discord, twitter, medium, github }) => {
+export const Top = ({ gitbook, discord, twitter, medium, github }) => {
     return (
         <div className="Top">
             <header className="common_width">
@@ -9,7 +9,7 @@ export const Top = ({ notion, discord, twitter, medium, github }) => {
                 <nav>
                     <li>
                         <a href="https://docs.soulcery.xyz" target="_blank" rel="noreferrer">
-                            <img style={{ display: "block", width: "100%" }} src={notion} alt="" />
+                            <img style={{ display: "block", width: "100%" }} src={gitbook} alt="" />
                         </a>
                     </li>
                     <li>

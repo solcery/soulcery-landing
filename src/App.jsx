@@ -26,7 +26,7 @@ import { Team } from "./components/Team";
 import { Contacts } from "./components/Contacts";
 import { Investors } from "./components/Investors";
 
-import notion from "./assets/img/links/notion.svg";
+import gitbook from "./assets/img/links/gitbook.svg";
 import discord from "./assets/img/links/discord.svg";
 import twitter from "./assets/img/links/twitter.svg";
 import medium from "./assets/img/links/medium.svg";
@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <Top
-        notion={notion}
+        gitbook={gitbook}
         discord={discord}
         twitter={twitter}
         medium={medium}
@@ -50,7 +50,7 @@ function App() {
       <Team />
       <Investors />
       <Contacts
-        notion={notion}
+        gitbook={gitbook}
         discord={discord}
         twitter={twitter}
         medium={medium}
