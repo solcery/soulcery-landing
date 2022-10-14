@@ -57,7 +57,7 @@ export const Roadmap = () => {
                         heading="Summoner"
                         time="August 2021"
                         description="The very first game made with Solcery. A deckbuilding PvP game with a fully on-chain logic"
-                        link='https://docs.solcery.xyz/games/summoner'
+                        link='https://docs.soulcery.xyz/games/summoner'
                     />
                     <RoadmapCard
                         img={roadmap_round_done}
@@ -79,21 +79,21 @@ export const Roadmap = () => {
                         heading="Solitary"
                         time="November 2021"
                         description="A single-player roguelike deckbuilder that pioneered external NFT onboarding"
-                        link='https://docs.solcery.xyz/games/solitary'
+                        link='https://docs.soulcery.xyz/games/solitary'
                     />
                     <RoadmapCard
                         img={roadmap_vm_done}
                         heading="Solcery Virtual Machine"
                         time="December 2021"
                         description="An on-chain protocol meant to be the ultimate source of consensus around any game state or any game result"
-                        link='https://docs.solcery.xyz/protocols/solcery-vm'
+                        link='https://docs.soulcery.xyz/protocols/soulcery-vm'
                     />
                     <RoadmapCard
                         img={roadmap_sage_done}
                         heading="Sage"
                         time="March 2022"
                         description="Solcery game editor itself - a zero-code engine and an easy-to-use content management system"
-                        link='https://docs.solcery.xyz/sage'
+                        link='https://docs.soulcery.xyz/create/soulcery-editor'
                     />
                     <RoadmapCard
                         img={roadmap_game}
@@ -126,7 +126,7 @@ export const Roadmap = () => {
                         heading="Solcery Forge"
                         time="Q4 2022"
                         description="A protocol that handles turning any Solana NFT into an in-game asset interoperable for all Solcery games"
-                        link='https://docs.solcery.xyz/protocols/solcery-forge'
+                        link='https://docs.soulcery.xyz/protocols/soulcery-forge'
                     />
                     <RoadmapCard
                         img={roadmap_mobile}
@@ -139,7 +139,7 @@ export const Roadmap = () => {
                         heading="P2P protocol"
                         time="Q1 2023"
                         description="A protocol for serverless gameplay with optimistic on-chain validation"
-                        link='https://docs.solcery.xyz/protocols/p2p'
+                        link='https://docs.soulcery.xyz/protocols/soulcery-p2p'
                     />
                     <RoadmapCard
                         img={roadmap_mm}

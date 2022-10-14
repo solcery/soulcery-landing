@@ -19,7 +19,7 @@ export const Contacts = ({ notion, discord, twitter, medium, github }) => {
 
                 <nav>
                     <li>
-                        <a href="https://docs.solcery.xyz" target="_blank" rel="noreferrer">
+                        <a href="https://docs.soulcery.xyz" target="_blank" rel="noreferrer">
                             <img src={notion} alt="" />
                         </a>
                     </li>

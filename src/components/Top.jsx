@@ -8,7 +8,7 @@ export const Top = ({ notion, discord, twitter, medium, github }) => {
                 <img src={logo} alt="" />
                 <nav>
                     <li>
-                        <a href="https://docs.solcery.xyz" target="_blank" rel="noreferrer">
+                        <a href="https://docs.soulcery.xyz" target="_blank" rel="noreferrer">
                             <img style={{ display: "block", width: "100%" }} src={notion} alt="" />
                         </a>
                     </li>
