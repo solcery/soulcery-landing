@@ -54,10 +54,10 @@ export const Roadmap = () => {
                     />
                     <RoadmapCard
                         img={roadmap_game_done}
-                        heading="Summoner"
+                        heading="Paint N'Powder"
                         time="August 2021"
                         description="The very first game made with Soulcery. A deckbuilding PvP game with a fully on-chain logic"
-                        link='https://docs.soulcery.xyz/games/summoner'
+                        link='https://play.solcery.xyz/paint_n_powder'
                     />
                     <RoadmapCard
                         img={roadmap_round_done}
