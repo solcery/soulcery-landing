@@ -1,7 +1,7 @@
 import footer_logo from "../assets/img/footer/footer_logo.png";
 import footer_button from "../assets/img/footer/footer_button.png";
 
-export const Contacts = ({ gitbook, discord, twitter, medium, github }) => {
+export const Contacts = ({ gitbook, discord, twitter, github }) => {
     return (
         <div className="Contacts_wrapper common_width" id="contacts">
             <div className="Contacts">
@@ -31,11 +31,6 @@ export const Contacts = ({ gitbook, discord, twitter, medium, github }) => {
                     <li>
                         <a href="https://twitter.com/SoulceryGames" target="_blank" rel="noreferrer">
                             <img src={twitter} alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/@solcery" target="_blank" rel="noreferrer">
-                            <img src={medium} alt="" />
                         </a>
                     </li>
                     <li>

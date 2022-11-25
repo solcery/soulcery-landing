@@ -1,7 +1,7 @@
 import logo from "../assets/img/header/logo.png";
 import header_button from "../assets/img/header/header_button.png";
 
-export const Top = ({ gitbook, discord, twitter, medium, github }) => {
+export const Top = ({ gitbook, discord, twitter, github }) => {
     return (
         <div className="Top">
             <header className="common_width">
@@ -20,11 +20,6 @@ export const Top = ({ gitbook, discord, twitter, medium, github }) => {
                     <li>
                         <a href="https://twitter.com/SoulceryGames" target="_blank" rel="noreferrer">
                             <img style={{ display: "block", width: "100%" }} src={twitter} alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/@solcery" target="_blank" rel="noreferrer">
-                            <img style={{ display: "block", width: "100%" }} src={medium} alt="" />
                         </a>
                     </li>
                     <li>

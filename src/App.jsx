@@ -29,7 +29,6 @@ import { Investors } from "./components/Investors";
 import gitbook from "./assets/img/links/gitbook.svg";
 import discord from "./assets/img/links/discord.svg";
 import twitter from "./assets/img/links/twitter.svg";
-import medium from "./assets/img/links/medium.svg";
 import github from "./assets/img/links/github.svg";
 
 function App() {
@@ -39,7 +38,6 @@ function App() {
         gitbook={gitbook}
         discord={discord}
         twitter={twitter}
-        medium={medium}
         github={github}
       />
       <Games />
@@ -53,7 +51,6 @@ function App() {
         gitbook={gitbook}
         discord={discord}
         twitter={twitter}
-        medium={medium}
         github={github}
       />
     </div>
